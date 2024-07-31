@@ -13,7 +13,16 @@
     font-size: 1rem;
     margin-left: 10px;
 }
-
+#schedule .scheduleTableWrap {
+    transition: all 0.4s ease;
+}
+#schedule .scheduleTableWrap.active {
+    height: 0;
+    padding: 0;
+}
+#schedule .scheduleTableWrap.active .container {
+    display: none;
+}
 .scheduleTableWrap .contentsWrap table {
     width: 80%;
     position: relative;

@@ -50,6 +50,10 @@ html, body {
   padding-top: 20px;
   padding-bottom: 20px
 }
+#schedule .scheduleTableWrap {
+  padding-left: 0;
+  padding-right: 0;
+}
 #faqWrap {
   padding: 0;
 }
@@ -274,7 +278,6 @@ html, body {
   #classType, 
   #classContent,
   #schedule .scheduleViewToggle,
-  #schedule .scheduleTableWrap,
   #studioGallery,
   #faqWrap,
   #faq #expWrap,
@@ -294,5 +297,8 @@ html, body {
   #faq #qnaWrap {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  #schedule .scheduleTableWrap .container {
+    width: 90%;
   }
 }

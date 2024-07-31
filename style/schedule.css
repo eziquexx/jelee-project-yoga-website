@@ -45,3 +45,13 @@
 .scheduleTableWrap .contentsWrap table tbody tr td:first-child {
     background-color: #D6F2DC;
 }
+
+
+
+
+    /* 소형 태블릿 */
+@media screen and (max-width: 1024px) {
+    .scheduleTableWrap .contentsWrap table {
+        width: 100%;
+    }
+}

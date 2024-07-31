@@ -59,7 +59,14 @@
 
 
 /* 중형 스마트폰 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
+  #navBar {
+    overflow: initial;
+  }
+  #navBar .container {
+    height: 70px;
+    overflow: hidden;
+  }
   #navBar .container .logo {
     position: relative;
     width: 160px;
@@ -77,13 +84,13 @@
     font-weight: 700;
     background-color: #fff;
   }
-  #navBar .container .menuWrap .menuGroup {
+  #navBar .menuWrap .menuGroup {
     display: none !important;
   }
-  #navBar .container .menuWrap .naverTalk {
+  #navBar .menuWrap .naverTalk {
     display: none !important;
   }
-  #navBar .container .menuWrap #toggleBtn {
+  #navBar .menuWrap #toggleBtn {
     width: 50px;
     height: 50px;
     display: block;
@@ -178,7 +185,7 @@
 }
 
 /* 소형 태블릿 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #navBar .container .logo {
     position: relative;
     width: 180px;
@@ -196,7 +203,7 @@
     font-weight: 700;
     background-color: #fff;
   }
-  #navBar .container .menuWrap .menuGroup {
+  #navBar .menuWrap .menuGroup {
     display: flex;
     margin-right: 16px;
   }
@@ -205,13 +212,13 @@
     padding-left: 8px;
     padding-right: 8px;
   }
-  #navBar .container .menuWrap .menuGroup li a {
+  #navBar .menuWrap .menuGroup li a {
     display: block;
     font-size: 15px;
     text-decoration: none;
     color: #fff;
   }
-  #navBar .container .menuWrap .naverTalk {
+  #navBar .menuWrap .naverTalk {
     width: 116px;
     height: 42px;
     background-image: url(../img/naverTalk.png);

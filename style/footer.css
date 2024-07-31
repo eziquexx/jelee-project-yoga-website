@@ -3,7 +3,7 @@
 	justify-content: space-between;
 }
 #footer .leftContentsWrap {
-	width: 50%;
+	width: 40%;
   position: relative;
 	display: flex;
 	justify-content: flex-start;
@@ -41,7 +41,7 @@
 }
 
 #footer .rightContentsWrap {
-	width: 50%;
+	width: 60%;
   display: flex;
   justify-content: right;
 }
@@ -62,4 +62,11 @@
 }
 #footer .rightContentsWrap .menuGroup li a:hover {
   color: #1E4527;
+}
+
+
+/* 중형 스마트폰 */
+@media screen and (max-width: 769px) {
+
+
 }

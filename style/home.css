@@ -154,7 +154,7 @@
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #header {
     height: 836px;
   }
@@ -213,7 +213,7 @@
 }
 
 /* 중형 스마트폰 */
-@media screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   #header {
     height: 700px;
   }
@@ -267,9 +267,9 @@
 }
 
 /* 소형 태블릿 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #header, #home {
-    height: 700px;
+    height: auto;
   }
   #home .container {
     margin-top: 50px;

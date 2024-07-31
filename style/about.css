@@ -57,14 +57,6 @@
 
 /* 소형 스마트폰1 */
 @media screen and (max-width: 480px) {
-  /* #about {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
   #about .container .imgWrap {
     width: 100%;
     height: 300px;
@@ -111,15 +103,7 @@
 }
 
 /* 소형 스마트폰2 */
-@media screen and (min-width: 481px) and (max-width: 600px) {
-  /* #about {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
+@media screen and (max-width: 600px) {
   #about .container .imgWrap {
     width: 400px;
     height: 300px;
@@ -144,15 +128,7 @@
 }
 
 /* 중형 스마트폰 */
-@media screen and (min-width: 601px) and (max-width: 767px) {
-  /* #about {
-    padding-left: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
+@media screen and (max-width: 769px) {
   #about .container .imgWrap {
     width: 397px;
     height: 282px;
@@ -175,7 +151,7 @@
 }
 
 /* 소형 태블릿 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #about .container .imgWrap {
     width: 48%;
     height: 340px;
@@ -188,7 +164,7 @@
   }
   #about .container .textWrap {
     width: 48%;
-    height: 355px; 
+    height: auto; 
     position: relative;
     float: right;
     text-align: left;

@@ -1,0 +1,298 @@
+/* 중복 */
+html, body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px; /* 기본 16px = 1rem*/
+}
+
+/* each section */
+#header,
+#navBar,
+#home,
+#about, 
+#history, 
+#classType, 
+#classContent,
+#schedule .scheduleViewToggle,
+#schedule .scheduleTableWrap,
+#studioGallery,
+#faqWrap,
+#faq,
+#contact,
+#footer,
+#copyright {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+#header {
+  height: 758px;
+  padding: 0;
+}
+#navBar {
+  height: 70px;
+  position: fixed;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom: 1px solid #15301B;
+  z-index: 999;
+}
+#schedule .scheduleViewToggle {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+#faqWrap {
+  padding: 0;
+}
+#faq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#footer { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#copyright { 
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* background-color */
+#header { background-color: #fff; }
+#navBar { background-color: #517C5A; }
+#about { background-color: #517C5B; }
+#history { background-color: #61926C;}
+#classType { background-color: #fff; }
+#classContent { background-color: #FFBFB5; }
+#schedule .scheduleViewToggle { background-color: #1E4527; }
+#schedule .scheduleTableWrap { background-color: #61926C; }
+#studioGallery { background-color: #fff; }
+#faqWrap { background-color: #fff; }
+#contact { background-color: #fff; }
+#footer { background-color: #61926C; }
+#copyright { background-color: #517C5B; }
+
+
+/* .container */
+#navBar .container,
+#home .container,
+#about .container,
+#history .container,
+#classType .container,
+#classContent .container,
+#schedule .scheduleViewToggle .container,
+#schedule .scheduleTableWrap .container,
+#studioGallery .container,
+#faq .container,
+#contact .container,
+#footer .container,
+#copyright .container {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  overflow: hidden;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+#navBar .container {
+  display: flex;
+  justify-content: space-between;
+}
+#home .container {
+  margin-top: 70px;
+}
+
+
+/* .titleWrap */
+#about .titleWrap,
+#history .titleWrap,
+#classType .titleWrap,
+#classContent .titleWrap,
+#schedule .scheduleTableWrap .titleWrap,
+#studioGallery .titleWrap,
+#contact .titleWrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#about .titleWrap,
+#history .titleWrap,
+#faq .titleWrap,
+#contact .titleWrap  {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#about .titleWrap { height: 86px; }
+#history .titleWrap,
+#contact .titleWrap {
+  height: 46px;
+}
+
+
+/* .titleWrap .titleLine */
+#about .titleWrap .titleLine,
+#history .titleWrap .titleLine,
+#contact .titleWrap .titleLine {
+  width: 4px;
+  height: 80%;
+  margin-top: 6px;
+  background-color: #FFBFB5;
+}
+#about .titleWrap .titleLine { height: 90%; }
+
+/* .titleWrap h3 */
+#history .titleWrap h3,
+#classType .titleWrap h3,
+#classContent .titleWrap h3,
+#schedule .scheduleTableWrap .titleWrap h3,
+#studioGallery .titleWrap h3,
+#faq #expWrap .titleWrap h3,
+#contact .titleWrap h3 {
+  display: block;
+  font-size: 1rem;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+#history .titleWrap h3 { color: #fff; }
+#classType .titleWrap h3 { color: #517359; }
+#classContent .titleWrap h3 { color: #814F47; }
+#schedule .scheduleTableWrap .titleWrap h3 { color: #FFFFFF; }
+#studioGallery .titleWrap h3 { color: #517359; }
+#faq #expWrap .titleWrap h3 { color: #fff; }
+#contact .titleWrap h3 { color: #517359; }
+
+#history .titleWrap h3,
+#schedule .scheduleTableWrap .titleWrap h3,
+#faq #expWrap .titleWrap h3,
+#contact .titleWrap h3 {
+  margin-top: 22px;
+  margin-left: 6px;
+}
+
+
+/* .titleWrap h1 */
+#about .titleWrap h1,
+#history .titleWrap h1,
+#classType .titleWrap h1,
+#classContent .titleWrap h1,
+#schedule .scheduleTableWrap .titleWrap h1,
+#studioGallery .titleWrap h1,
+#faq #expWrap .titleWrap h1,
+#faq #qnaWrap .titleWrap h1,
+#contact .titleWrap h1 {
+  display: block;
+  margin-top: 8px;
+  font-size: 2.2rem;
+  /* font-size: 42px; */
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#about .titleWrap h1 { color: #fff; }
+#history .titleWrap h1 { color: #fff; }
+#classType .titleWrap h1 { color: #1E4527; }
+#classContent .titleWrap h1 { color: #552B24; }
+#schedule .scheduleTableWrap .titleWrap h1 { color: #1E4527; }
+#studioGallery .titleWrap h1 { color: #1E4527; }
+#faq #expWrap .titleWrap h1 { color: #fff; }
+#faq #qnaWrap .titleWrap h1 { color: #fff; }
+#contact .titleWrap h1 { color: #1E4527; }
+
+#about .titleWrap h1,
+#history .titleWrap h1,
+#contact .titleWrap h1 {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+
+
+/* 소형 스마트폰1 */
+@media screen and (max-width: 480px) {
+  #navBar,
+  #home,
+  #about,
+  #history,
+  #classType,
+  #classContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* 소형 스마트폰2 */
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  #about, 
+  #history, 
+  #classType, 
+  #classContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+/* 중형 스마트폰 */
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  #navBar,
+  #home,
+  #about,
+  #history,
+  #classType,
+  #classContent {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* 소형 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #navBar,
+  #home,
+  #about, 
+  #history, 
+  #classType, 
+  #classContent,
+  #schedule .scheduleViewToggle,
+  #schedule .scheduleTableWrap,
+  #studioGallery,
+  #faqWrap,
+  #faq #expWrap,
+  #faq #qnaWrap,
+  #contact,
+  #footer,
+  #copyright {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  #faqWrap,
+  #faq {
+    padding: 0;
+  }
+  #faq #expWrap,
+  #faq #qnaWrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

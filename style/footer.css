@@ -1,0 +1,65 @@
+#footer .container {
+  display: flex;
+	justify-content: space-between;
+}
+#footer .leftContentsWrap {
+	width: 50%;
+  position: relative;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+#footer .leftContentsWrap .logo {
+	width: 160px;
+	height: 47px;
+  position: relative;
+	display: block;
+	overflow: hidden;
+}
+#footer .leftContentsWrap .logo img {
+	display: block;
+	width: 100%;
+}
+#footer .leftContentsWrap .textGroup {
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+#footer .leftContentsWrap .textGroup span {
+	width: 100%;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+  color: #fff;
+}
+#footer .leftContentsWrap .textGroup span:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+#footer .rightContentsWrap {
+	width: 50%;
+  display: flex;
+  justify-content: right;
+}
+#footer .rightContentsWrap .menuGroup {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+#footer .rightContentsWrap .menuGroup li a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+#footer .rightContentsWrap .menuGroup li:not(:last-child) a {
+  margin-right: 20px;
+}
+#footer .rightContentsWrap .menuGroup li a:hover {
+  color: #1E4527;
+}

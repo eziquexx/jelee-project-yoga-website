@@ -1,0 +1,176 @@
+
+#faqWrap .expWrapBg,
+#faqWrap .qnaWrapBg {
+  width: 50%;
+  padding:200px;
+  position: absolute;
+  height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#faqWrap .expWrapBg { 
+  top: 0;
+  left: 0;
+  background-color: #1E4527;
+}
+#faqWrap .qnaWrapBg { 
+  top: 0;
+  right: 0;
+  background-color: #406F4B; 
+}
+
+#faq .container {
+  display: flex;
+  justify-content: space-between;
+}
+#faq .container #expWrap,
+#faq .container #qnaWrap {
+  width: 50%;
+}
+
+#faq #expWrap { 
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+#faq #qnaWrap { 
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+#faq #expWrap .titleWrap h1,
+#faq #qnaWrap .titleWrap h1 { font-size: 2rem; }
+#faq #expWrap .titleWrap h3 { font-size: 0.9rem; }
+
+#faq #expWrap .contentsWrap {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+#faq #expWrap .contentsWrap li {
+  width: 49%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+}
+#faq #expWrap .contentsWrap li:last-child {
+  margin-top: 10px;
+}
+#faq #expWrap .contentsWrap li h4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+#faq #expWrap .contentsWrap li h4::before { 
+  width: 6px;
+  height: 6px;
+  display: block;
+  content: '';
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 6px;
+}
+#faq #expWrap .contentsWrap li h4 span {
+  font-weight: 300;
+  margin-left: 6px;
+}
+#faq #expWrap .contentsWrap li p {
+  display: block;
+  margin-top: 10px;
+  padding-left: 14px;
+}
+
+
+#faq #qnaWrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#faq #qnaWrap .leftWrap {
+  width: 30%;
+  height: auto;
+  position: relative;
+  margin-top: 20px;
+  /* margin-right: 10px; */
+  background-color: #999;
+}
+#faq #qnaWrap .leftWrap img {
+  width: 100%;
+  /* height: 100%; */
+  display: block;
+}
+#faq #qnaWrap .rightWrap {
+  width: 64%;
+  height: 100%;
+}
+#faq #qnaWrap .rightWrap .contentsWrap {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #fff;
+}
+#faq #qnaWrap .rightWrap .contentsWrap p {
+  margin-top: 20px;
+  box-sizing: border-box;
+
+}
+#faq #qnaWrap .rightWrap .contentsWrap .btnGroup {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+#faq #qnaWrap .rightWrap .contentsWrap .btnGroup a {
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+#faq #qnaWrap .rightWrap .contentsWrap .btnGroup a:first-child {
+  margin-right: 14px;
+}
+
+
+/* 소형 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #faqWrap .expWrapBg,
+  #faqWrap .qnaWrapBg {
+    display: none;
+  }
+  #faq .container {
+    display: flex;
+    flex-direction: column;
+  }
+  #faq .container #expWrap,
+  #faq .container #qnaWrap {
+    width: 100%;
+  }
+  #faq .container #expWrap {
+    background-color: #1E4527;
+  }
+  #faq .container #qnaWrap {
+    background-color: #406F4B;
+  }
+  #faq #expWrap .titleWrap h1,
+  #faq #qnaWrap .titleWrap h1 {
+    margin-top: 0;
+  }
+  #faq #expWrap .contentsWrap li {
+    width: 32%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  #faq #expWrap .contentsWrap li:last-child {
+    margin: 0;
+  }
+}

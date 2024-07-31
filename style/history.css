@@ -1,0 +1,231 @@
+
+
+
+#history .container::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 442px;
+  right: 0;
+  bottom: -60px;
+  background-image: url(../img/history_bgImg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* #history .container .titleWrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+} */
+/* #history .container .titleWrap .titleLine {
+  width: 4px;
+  height: 46px;
+  background-color: #FFBFB5;
+} */
+/* #history .container .titleWrap .titleText {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 12px;
+} */
+/* #history .container .titleWrap .titleSubText {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 26px;
+  margin-left: 14px;
+} */
+#history .container .contentsWrap {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 50px auto 0;
+}
+#history .container .contentsWrap .itemsTextWrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#history .container .contentsWrap .itemsTextWrap .item {
+  width: 30%;
+  box-sizing: border-box;
+}
+#history .container .contentsWrap .itemsTextWrap .item li {
+  margin-bottom: 10px;
+}
+#history .container .contentsWrap .korTextWrap {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+#history .container .contentsWrap .line { 
+  width: 100%;
+  height: 2px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #3E6346;
+}
+
+#history .container .contentsWrap .engTextWrap {
+  font-size: 16px;
+  font-weight: 300;
+  color: #27482F;
+}
+
+/* 소형 스마트폰1 */
+@media screen and (max-width: 480px) { 
+  /* #history {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  } */
+  /* #history .container {
+    padding: 0;
+  } */
+  #history .container::after {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #history .container .titleWrap .titleLine {
+    height: 36px;
+    margin-top: 2px;
+  }
+  #history .container .titleWrap .titleSubText {
+    margin-left: 8px;
+  }
+  #history .container .contentsWrap {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #history .container .contentsWrap .itemsTextWrap {
+    position: relative;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  #history .container .contentsWrap .itemsTextWrap .item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #history .container .contentsWrap .engTextWrap .item:last-child {
+    margin-bottom: 0;
+  }
+  #history .container .titleWrap .titleText {
+    font-size: 32px;
+  }
+  #history .container .titleWrap .titleSubText {
+    margin-top: 16px;
+  }
+  #history .container .contentsWrap .line {
+    display: none;
+  }
+}
+
+/* 소형 스마트폰2 */
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  /* #history {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  } */
+  /* #history .container {
+    padding: 0;
+  } */
+  #history .container::after {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #history .container .contentsWrap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #history .container .contentsWrap .itemsTextWrap {
+    position: relative;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #history .container .contentsWrap .korTextWrap {
+    margin-bottom: 30px;
+  }
+  #history .container .contentsWrap .itemsTextWrap .item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #history .container .contentsWrap .itemsTextWrap .item:last-child {
+    margin-bottom: 0;
+  }
+  #history .container .titleWrap .titleText {
+    font-size: 36px;
+  }
+  #history .container .titleWrap .titleSubText {
+    margin-top: 22px;
+  }
+  #history .container .contentsWrap .line {
+    display: none;
+  }
+}
+/* 중형 스마트폰 */
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  /* #history {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  } */
+  /* #history .container {
+    padding: 0;
+  } */
+  #history .container .contentsWrap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #history .container .contentsWrap .itemsTextWrap {
+    position: relative;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #history .container .contentsWrap .itemsTextWrap .item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  #history .container .contentsWrap .itemsTextWrap .item:last-child {
+    margin-bottom: 0;
+  }
+  #history .container .contentsWrap .line {
+    display: none;
+  }
+}

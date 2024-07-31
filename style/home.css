@@ -1,0 +1,299 @@
+#home .textWrap {
+  width: 510px;
+  min-width: 510px;
+  position: absolute;
+  transform: translateY(50%);
+  height: auto;
+  float: left;
+  z-index: 111;
+}
+#home .textWrap .mainText {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1E4527;
+}
+#home .textWrap .subText {
+  font-size: 20px;
+  font-weight: 400;
+  color: #222222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#home .textWrap .subText span {
+  color: #ED8170;
+}
+#home .textWrap .button {
+  width: 160px;
+  height: 46px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1E4527;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+#home .textWrap .button span {
+  font-size: 16px;
+}
+#home .textWrap .button:hover {
+  background-color: #305f3b;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+}
+#home .imgWrap {
+  width: 509px;
+  min-width: 509px;
+  height: 556px;
+  position: relative;
+  float: right;
+  box-sizing: border-box;
+}
+#home .imgWrap div:first-child {
+  position: absolute;
+  left: 0;
+  bottom: 14px;
+  width: 266px;
+  height: 266px;
+  border-radius: 50%;
+  z-index: 22;
+  background-image: url(../img/header_img1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -70px;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+#home .imgWrap div:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 422px;
+  height: 518px;
+  border-radius: 220px 220px 0 0;
+  background-image: url(../img/header_img2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* 소형 스마트폰 */
+@media screen and (max-width: 480px) {
+  #header {
+    height: auto;
+  }
+  #home {
+    height: 760px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #home .container {
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+    padding: 0;
+  }
+  #home .container .textWrap {
+    position: relative !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  #home .container .textWrap .mainText {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-weight: 700;
+    white-space: normal;
+    color: #1E4527;
+  }
+  #home .container .textWrap .subText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #home .container .imgWrap {
+    position: relative;
+    width: 360px;
+    min-width: 360px;
+    height: 340px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  #header #home .container .imgWrap div:first-child {
+    position: absolute;
+    left: 70px;
+    width: 168px;
+    height: 168px;
+  }
+  #header #home .container .imgWrap div:last-child {
+    width: 228px;
+    height: 298px;
+    right: 10px;
+  }
+  #home .container .textWrap .button {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #1E4527;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  #home .container .textWrap .button span {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+  #header {
+    height: 836px;
+  }
+  #home {
+    height: 836px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #home .container {
+    width: 90%;
+    height: 600px;
+    padding: 0;
+  }
+  #home .container .textWrap {
+    position: relative !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  #home .container .textWrap .mainText {
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+    font-weight: 700;
+    white-space: normal;
+    color: #1E4527;
+  }
+  #home .container .textWrap .subText {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #home .container .imgWrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 360px;
+    min-width: 360px;
+    height: 394px;
+  }
+  #header #home .container .imgWrap div:first-child {
+    width: 188px;
+    height: 188px;
+  }
+  #header #home .container .imgWrap div:last-child {
+    width: 298px;
+    height: 368px;
+  }
+}
+
+/* 중형 스마트폰 */
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  #header {
+    height: 700px;
+  }
+  #home {
+    height: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #home .container {
+    height: 466px;
+  }
+  #home .container .textWrap {
+    position: relative !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  #home .container .textWrap .mainText {
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+    font-weight: 700;
+    white-space: normal;
+    color: #1E4527;
+  }
+  #home .container .textWrap .subText {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #home .container .imgWrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+    min-width: 394px;
+    height: 394px;
+  }
+  #header #home .container .imgWrap div:first-child {
+    width: 188px;
+    height: 188px;
+  }
+  #header #home .container .imgWrap div:last-child {
+    width: 298px;
+    height: 368px;
+  }
+}
+
+/* 소형 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #header, #home {
+    height: 700px;
+  }
+  #home .container {
+    margin-top: 50px;
+  }
+  #home .container .textWrap {
+    width: 510px;
+    min-width: 510px;
+    position: absolute;
+    transform: translateY(30%);
+    height: auto;
+    float: left;
+    z-index: 111;
+  }
+  #home .container .imgWrap {
+    width: 360px;
+    min-width: 394px;
+    height: 394px;
+  }
+  #header #home .container .imgWrap div:first-child {
+    width: 188px;
+    height: 188px;
+  }
+  #header #home .container .imgWrap div:last-child {
+    width: 298px;
+    height: 368px;
+  }
+}

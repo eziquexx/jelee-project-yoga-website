@@ -1,0 +1,221 @@
+
+#navBar .container .logo {
+  position: relative;
+  width: 238px;
+  height: 70px;
+}
+#navBar .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 70px;
+  text-decoration: none;
+  color: #517C5A;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #fff;
+}
+#navBar .menuWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#navBar .menuWrap .menuGroup {
+  display: flex;
+  margin-right: 26px;
+}
+#navBar .menuWrap .menuGroup li {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#navBar .menuWrap .menuGroup li a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+#navBar .menuWrap .menuGroup li a:hover {
+  color: #314635;
+}
+#navBar .menuWrap .naverTalk {
+  width: 116px;
+  height: 42px;
+  background-image: url(../img/naverTalk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navBar .menuWrap #toggleBtn {
+  display: none;
+  cursor: pointer;
+}
+#navBar #toggleMenu {
+  display: none;
+}
+
+
+/* 중형 스마트폰 */
+@media screen and (max-width: 767px) {
+  #navBar .container .logo {
+    position: relative;
+    width: 160px;
+    height: 70px;
+  }
+  #navBar .container .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    color: #517C5A;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+  }
+  #navBar .container .menuWrap .menuGroup {
+    display: none !important;
+  }
+  #navBar .container .menuWrap .naverTalk {
+    display: none !important;
+  }
+  #navBar .container .menuWrap #toggleBtn {
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background-image: url(../img/toggleBtn1.png);
+  }
+  #navBar #toggleMenu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+  }
+  #navBar #toggleMenu .toggleMenuGroup {
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 111;
+    transition: all 0.3s ease;
+  }
+  #navBar #toggleMenu .toggleMenuGroup.active {
+    height: 560px !important;
+  }
+  #navBar #toggleMenu .toggleMenuGroup li a {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1E4527;
+    border-bottom: 1px solid #15301B;
+    transition: background-color 0.3s ease-in;
+  }
+  #navBar #toggleMenu .toggleMenuGroup li a:hover {
+    background-color: #15301B;
+  }
+  #navBar #toggleMenu .toggleMenuGroup li a span {
+    display: block;
+    width: 190px;
+    text-align: left;
+    line-height: 42px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  #navBar #toggleMenu .toggleMenuGroup li a span::before {
+    width: 42px;
+    height: 42px;
+    display: block;
+    float: left;
+    content: '';
+    margin-right: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(1) a span::before {
+    background-image: url(../img/menuIcon-1.png);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(2) a span::before {
+    background-image: url(../img/menuIcon-2.png);
+    transform: translateX(2px);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(3) a span::before {
+    background-image: url(../img/menuIcon-3.png);
+    transform: scale(0.9);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(4) a span::before {
+    background-image: url(../img/menuIcon-4.png);
+    transform: scale(0.9) translateX(-5px);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(5) a span::before {
+    background-image: url(../img/menuIcon-5.png);
+    transform: translateX(-1px);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(6) a span::before {
+    background-image: url(../img/menuIcon-6.png);
+    transform: scale(0.9) translateX(-4px);
+  }
+  #navBar #toggleMenu .toggleMenuGroup li:nth-child(7) a span::before {
+    background-image: url(../img/menuIcon-7.png);
+    transform: scale(0.7) translateX(-4px);
+  }
+  
+}
+
+/* 소형 태블릿 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #navBar .container .logo {
+    position: relative;
+    width: 180px;
+    height: 70px;
+  }
+  #navBar .container .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    color: #517C5A;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+  }
+  #navBar .container .menuWrap .menuGroup {
+    display: flex;
+    margin-right: 16px;
+  }
+  #navBar .container .menuWrap .menuGroup li {
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #navBar .container .menuWrap .menuGroup li a {
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  #navBar .container .menuWrap .naverTalk {
+    width: 116px;
+    height: 42px;
+    background-image: url(../img/naverTalk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

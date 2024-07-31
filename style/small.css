@@ -1,0 +1,36 @@
+/* *****
+  home 
+  모바일 너비에 대한 스타일
+*/
+
+@media screen and (max-width: 599px) {
+  .container {
+    /* min-width: 467px; */
+    width: 100%;
+  }
+  #header #home {
+    height: 836px;
+    margin: 0 auto;
+  }
+  #header #home .container {
+    height: 646px;
+  }
+  #header #home .container .textWrap {
+    top: 0;
+    width: 100%;
+    min-width: 386px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #header #home .container .textWrap .mainText {
+    letter-spacing: -1px;
+  }
+  #header #home .container .imgWrap {
+    position: absolute;
+    min-width: 360px !important;
+    min-height: 394px;
+    left: 50%;
+    bottom: 46px;
+    transform: translateX(-50%);
+  }
+}

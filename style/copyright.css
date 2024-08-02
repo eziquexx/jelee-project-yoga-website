@@ -4,3 +4,11 @@ section#copyright .textWrap {
     text-align: center;
     color: #fff;
   }
+
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
+  section#copyright .textWrap {
+    font-size: 0.8rem;
+  }
+}
+  

@@ -313,7 +313,9 @@ html, body {
   #about,
   #history,
   #classType,
-  #classContent {
+  #classContent,
+  #footer,
+  #copyright {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -345,7 +347,9 @@ html, body {
   #about,
   #history,
   #classType,
-  #classContent {
+  #classContent,
+  #footer,
+  #copyright {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -378,7 +382,9 @@ html, body {
   #about,
   #history,
   #classType,
-  #classContent {
+  #classContent,
+  #footer,
+  #copyright {
     padding-left: 10px;
     padding-right: 10px;
   }

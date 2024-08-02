@@ -187,10 +187,12 @@ html, body {
 
 #history .titleWrap h3,
 #contact .titleWrap h3,
-#schedule .scheduleTableWrap .titleWrap h3,
 #faq #expWrap .titleWrap h3 {
   margin-top: 22px;
   margin-left: 6px;
+}
+#schedule .scheduleTableWrap .titleWrap h3 {
+  margin-top: 22px;
 }
 
 
@@ -273,9 +275,22 @@ html, body {
   #about,
   #history,
   #classType,
-  #classContent {
+  #classContent,
+  #schedule .scheduleTableWrap,
+  #studioGallery,
+  #contact {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #navBar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #schedule .scheduleViewToggle {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   #about .titleWrap .titleLine,
   #history .titleWrap .titleLine,
@@ -300,6 +315,10 @@ html, body {
     margin-top: 8px;
     font-size: 2.4rem;
   }
+  #schedule .scheduleTableWrap .titleWrap h1 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
   #history .titleWrap h3, 
   #contact .titleWrap h3 {
     margin-top: 42px;
@@ -314,11 +333,26 @@ html, body {
   #history,
   #classType,
   #classContent,
+  #schedule .scheduleViewToggle,
+  #schedule .scheduleTableWrap,
+  #studioGallery,
+  #contact
   #footer,
   #copyright {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
+  #navBar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #schedule .scheduleViewToggle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
   #about .titleWrap h1,
   #history .titleWrap h1 {
     font-size: 2.4rem;
@@ -327,7 +361,6 @@ html, body {
   #contact .titleWrap h3 {
     margin-top: 32px;
   }
-  #schedule .scheduleTableWrap .titleWrap h3,
   #faq #expWrap .titleWrap h3 {
     margin-top: 32px;
   }
@@ -336,8 +369,6 @@ html, body {
   #contact .titleWrap .titleLine {
     height: 76%;
   }
-  
-  
 }
 
 /* 480px 이하 화면*/
@@ -348,6 +379,10 @@ html, body {
   #history,
   #classType,
   #classContent,
+  #schedule .scheduleViewToggle,
+  #schedule .scheduleTableWrap,
+  #studioGallery,
+  #contact
   #footer,
   #copyright {
     padding-left: 16px;
@@ -363,6 +398,9 @@ html, body {
   #faq #qnaWrap .titleWrap h1,
   #contact .titleWrap h1 {
     font-size: 2rem;
+  }
+  #schedule .scheduleTableWrap .titleWrap h1 {
+    font-size:1.7rem
   }
   #history .titleWrap h3,
   #contact .titleWrap h3 {
@@ -383,6 +421,10 @@ html, body {
   #history,
   #classType,
   #classContent,
+  #schedule .scheduleViewToggle,
+  #schedule .scheduleTableWrap,
+  #studioGallery,
+  #contact
   #footer,
   #copyright {
     padding-left: 10px;

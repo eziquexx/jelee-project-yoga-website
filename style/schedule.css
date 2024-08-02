@@ -7,7 +7,7 @@
     font-weight: 500;
     text-align: center;
     color: #fff;
-  }
+}
 .scheduleViewToggle .textWrap span {
     display: inline-block;
     font-size: 1rem;
@@ -23,15 +23,21 @@
 #schedule .scheduleTableWrap.active .container {
     display: none;
 }
-.scheduleTableWrap .contentsWrap table {
+.scheduleTableWrap .contentsWrap .table2 {
+	display: none;
+}
+.scheduleTableWrap .contentsWrap .table1,
+.scheduleTableWrap .contentsWrap .table2 {
     width: 80%;
     position: relative;
     margin: 20px auto 0;
     font-size: 1rem;
     box-sizing: border-box;
 }
-.scheduleTableWrap .contentsWrap table th,
-.scheduleTableWrap .contentsWrap table td {
+.scheduleTableWrap .contentsWrap .table1 th,
+.scheduleTableWrap .contentsWrap .table1 td,
+.scheduleTableWrap .contentsWrap .table2 th,
+.scheduleTableWrap .contentsWrap .table2 td {
     width: 14.285%;
     padding: 14px;
     line-height: 1.2;
@@ -40,27 +46,55 @@
     border: 1px solid #34593D;
     box-sizing: border-box;
 }
-.scheduleTableWrap .contentsWrap table th {
+.scheduleTableWrap .contentsWrap .table1 th,
+.scheduleTableWrap .contentsWrap .table2 th {
     font-size: 1.2rem;
     font-weight: 500;
     color: #1E4527;
     background-color: #C0D6C5;
 }
-.scheduleTableWrap .contentsWrap table td {
+.scheduleTableWrap .contentsWrap .table1 td,
+.scheduleTableWrap .contentsWrap .table2 td {
     font-size: 1rem;
     color: #000000;
     background-color: #fff;
 }
-.scheduleTableWrap .contentsWrap table tbody tr td:first-child {
+.scheduleTableWrap .contentsWrap .table1 tbody tr td:first-child,
+.scheduleTableWrap .contentsWrap .table2 tbody tr td:first-child {
     background-color: #D6F2DC;
 }
 
-
-
-
-/* 소형 태블릿 */
+/* 1024px 이하 화면*/
 @media screen and (max-width: 1024px) {
-    .scheduleTableWrap .contentsWrap table {
-        width: 100%;
-    }
+	.scheduleTableWrap .contentsWrap .table1 {
+			width: 100%;
+	}
+}
+
+/* 769px 이하 화면*/
+@media screen and (max-width: 769px) {
+	#schedule .scheduleTableWrap .container {
+    width: 100%;
+  }
+	.scheduleTableWrap .contentsWrap .table1 th,
+	.scheduleTableWrap .contentsWrap .table1 td {
+		font-size: 0.9rem;
+		padding: 8px 4px;
+	}
+}
+
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
+	.scheduleTableWrap .contentsWrap .table1 {
+		display: none;
+	}
+	.scheduleTableWrap .contentsWrap .table2 {
+		display: block;
+		width: 100%;
+	}
+	.scheduleTableWrap .contentsWrap .table2 th,
+	.scheduleTableWrap .contentsWrap .table2 td {
+		font-size: 0.9rem;
+		padding: 8px 4px;
+	}
 }

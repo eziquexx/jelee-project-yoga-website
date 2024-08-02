@@ -337,7 +337,8 @@ html, body {
   #schedule .scheduleTableWrap,
   #studioGallery,
   #contact,
-  #footer {
+  #footer,
+  #copyright {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
@@ -348,9 +349,10 @@ html, body {
     padding-bottom: 0;
   }
   #copyright {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+
   #schedule .scheduleViewToggle {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -402,7 +404,7 @@ html, body {
     font-size: 2rem;
   }
   #schedule .scheduleTableWrap .titleWrap h1 {
-    font-size:1.7rem
+    font-size:1.7rem;
   }
   #history .titleWrap h3,
   #contact .titleWrap h3 {
@@ -463,6 +465,7 @@ html, body {
     height: 56%;
   }
 }
+
 /* 320px 이하 화면*/
 @media screen and (max-width: 320px) {
   #about .titleWrap h1,

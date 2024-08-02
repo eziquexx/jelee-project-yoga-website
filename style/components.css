@@ -336,9 +336,8 @@ html, body {
   #schedule .scheduleViewToggle,
   #schedule .scheduleTableWrap,
   #studioGallery,
-  #contact
-  #footer,
-  #copyright {
+  #contact,
+  #footer {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 50px;
@@ -347,6 +346,10 @@ html, body {
   #navBar {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  #copyright {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   #schedule .scheduleViewToggle {
     padding-top: 20px;

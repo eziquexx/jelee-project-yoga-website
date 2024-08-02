@@ -16,7 +16,6 @@
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
-
 #topBtn .arrow {
   position: relative;
   width: 37px;
@@ -53,7 +52,6 @@
   color: #61926C;
   transition: color 0.3s ease;
 }
-
 #topBtn:hover { background-color: rgba(54, 99, 63, 1); }
 #topBtn:hover .arrow span { background-color: #fff; }
 #topBtn:hover .text { color: #fff; }

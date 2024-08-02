@@ -1,5 +1,3 @@
-
-
 #about .about_bg {
   width: 2000px;
   height: 2000px;
@@ -21,10 +19,8 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 #about .container .imgWrap {
   width: 48%;
-  /* width: 488px; */
   height: 340px;
   position: absolute;
   border-radius: 150px 0 150px 0;
@@ -38,14 +34,12 @@
   width: 100%;
 }
 #about .container .textWrap {
- /* width: 503px; */
  width: 48%;
  height: 355px; 
  position: relative;
  float: right;
  text-align: left;
 }
-
 #about .container .textWrap .contentsWrap {
   display: block;
   font-size: 16px;
@@ -54,143 +48,79 @@
   margin-top: 10px;
 }
 
+/* 1024px 이하 화면*/
+@media screen and (max-width: 1024px) {
+  #about .container .textWrap {
+    height: auto; 
+   }
+}
 
-/* 소형 스마트폰1 */
-@media screen and (max-width: 480px) {
-  /* #about {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
-  #about .container .imgWrap {
-    width: 100%;
-    height: 300px;
-    position: absolute;
+/* 769px 이하 화면*/
+@media screen and (max-width: 769px) {
+  #about .container .imgWrap  {
+    width: 397px;
+    height: 282px;
     top: 0;
-    left: 0;
     right: 0;
-    margin: auto;
-    border-radius: 150px 0 150px 0;
-    background-image: url(../img/header_img3.png);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
   }
   #about .container .textWrap {
     width: 100%;
-    height: auto; 
-    position: relative;
-    margin-top: 320px;
+    margin-top: 200px;
     text-align: left;
-   }
-   #about .container .textWrap .titleWrap {
-    height: 80px;
-   }
-   #about .container .textWrap .titleWrap .titleLine {
-    height: 72px;
-    margin-top: 6px;
-   }
-   #about .container .textWrap .titleWrap .titleText {
-    display: block;
-    font-size: 32px;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #fff;
-    margin-left: 12px;
   }
-  #about .container .textWrap .contentsWrap {
-    display: block;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #fff;
-    margin-top: 10px;
+  #about .titleWrap { 
+    height: 110px; 
+    margin-bottom: 30px;
   }
 }
 
-/* 소형 스마트폰2 */
-@media screen and (min-width: 481px) and (max-width: 600px) {
-  /* #about {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
+/* 600px 이하 화면*/
+@media screen and (max-width: 600px) {
   #about .container .imgWrap {
     width: 400px;
     height: 300px;
-    position: absolute;
-    top: 0;
     left: 0;
-    right: 0;
     margin: auto;
-    border-radius: 150px 0 150px 0;
-    background-image: url(../img/header_img3.png);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
   }
   #about .container .textWrap {
-    width: 100%;
-    height: auto; 
-    position: relative;
     margin-top: 320px;
-    text-align: left;
    }
 }
 
-/* 중형 스마트폰 */
-@media screen and (min-width: 601px) and (max-width: 767px) {
-  /* #about {
-    padding-left: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
-  } */
-  /* #about .container {
-    padding: 0;
-  } */
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
   #about .container .imgWrap {
-    width: 397px;
-    height: 282px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 150px 0 150px 0;
-    background-image: url(../img/header_img3.png);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-  }
-  #about .container .textWrap {
     width: 100%;
-    height: auto; 
-    position: relative;
-    margin-top: 180px;
-    text-align: left;
-   }
+  }
+  #about .container .textWrap .titleWrap {
+    height: 80px;
+  }
+  #about .titleWrap .titleLine {
+    height: 70px;
+  }
 }
-
-/* 소형 태블릿 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* 380px 이하의 화면에서 적용될 스타일 */
+@media screen and (max-width: 380px) {
   #about .container .imgWrap {
-    width: 48%;
-    height: 340px;
-    position: absolute;
-    border-radius: 150px 0 150px 0;
-    background-image: url(../img/header_img3.png);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
+    height: 260px;
   }
   #about .container .textWrap {
-    width: 48%;
-    height: 355px; 
-    position: relative;
-    float: right;
-    text-align: left;
-   }
+    margin-top: 280px;
+  }
+  #about .titleWrap .titleLine {
+    height: 60px;
+  }
+  #about .titleWrap {
+    margin-bottom: 20px;
+  }
+}
+
+/* 320px 이하 화면*/
+@media screen and (max-width: 320px) {
+  #about .titleWrap .titleLine {
+    height: 50px;
+  }
+  #about .titleWrap {
+    margin-bottom: 10px;
+  }
 }

@@ -115,7 +115,7 @@
             <li>&#45; 요가, 명상 수련 20년</li>
             <li>&#45; 요가 지도자 양성 및 요가 근육학 지도</li>
             <li>&#45; 운동 재활 트레이너</li>
-            <li>&#45;5 퍼스널 테라피스트</li>
+            <li>&#45; 5 퍼스널 테라피스트</li>
             <li>&#45; 임산부 요가 마스터 지도자</li>
             <li>&#45; 자연치유사</li>
             <li>&#45; 차명상지도자</li>
@@ -345,21 +345,21 @@
     </div>
   </section>
   <section id="schedule">
-    <div class="scheduleViewToggle">
+    <div class="scheduleViewToggle" id="scheduleViewToggle">
       <div class="container">
-        <div class="textWrap">
-          그룹 스케쥴 보기<span>▼</span>
+        <div class="textWrap" id="scheduleToggleText">
+          그룹 스케쥴 닫기<span>▲</span>
         </div>
       </div>
     </div>
-    <div class="scheduleTableWrap">
+    <div class="scheduleTableWrap" id="scheduleTableWrap">
       <div class="container">
         <div class="titleWrap">
           <h1>Group Practice Schedule</h1>
           <h3>* 매월 마지막 토요일은 휴무입니다.</h3>
         </div>
         <div class="contentsWrap">
-          <table>
+          <table class="table1">
             <thead>
               <tr>
                 <th>시간</th>
@@ -379,7 +379,7 @@
                 <td>Ashtanga Mysore (self)</td>
                 <td>Hatha</td>
                 <td>Ashtanga Mysore (self)</td>
-                <td>Ashtanga Mysore (led)</td>
+                <td rowspan="3">Ashtanga Mysore (led)</td>
               </tr>
               <tr>
                 <td>오전<br/>11:00 ~ 12:30</td>
@@ -388,7 +388,6 @@
                 <td>Ashtanga Basic</td>
                 <td></td>
                 <td>Pelvis Stretch</td>
-                <td></td>
               </tr>
               <tr>
                 <td>오후<br/>08:00 ~ 10:00</td>
@@ -397,7 +396,53 @@
                 <td>Ashtanga Mysore (self)</td>
                 <td>Hatha</td>
                 <td>Ashtanga Mysore (self)</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <table class="table2">
+            <thead>
+              <tr>
+                <th>시간/요일</th>
+                <th>오전<br/>09:00 ~ 11:00</th>
+                <th>오전<br/>11:00 ~ 12:30</th>
+                <th>오후<br/>08:00 ~ 10:00</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>월</td>
+                <td>Ashtanga Mysore (self)</td>
+                <td>Shoulder Stretch</td>
+                <td>Ashtanga Mysore (self)</td>
+              </tr>
+              <tr>
+                <td>화</td>
+                <td>Hatha</td>
                 <td></td>
+                <td>Hatha</td>
+              </tr>
+              <tr>
+                <td>수</td>
+                <td>Ashtanga Mysore (self)</td>
+                <td>Ashtanga Basic</td>
+                <td>Ashtanga Mysore (self)</td>
+              </tr>
+              <tr>
+                <td>목</td>
+                <td>Hatha</td>
+                <td></td>
+                <td>Hatha</td>
+              </tr>
+              <tr>
+                <td>금</td>
+                <td>Ashtanga Mysore (self)</td>
+                <td>Pelvis Stretch</td>
+                <td>Ashtanga Mysore (self)</td>
+              </tr>
+              <tr>
+                <td>토</td>
+                <td colspan="3">Ashtanga Mysore (led)</td>
               </tr>
             </tbody>
           </table>
@@ -405,6 +450,7 @@
       </div>
     </div>  
   </section>
+  <script src="./js/scheduleToggleBtn.js"></script>
   <section id="studioGallery">
     <div class="container">
       <div class="titleWrap">
@@ -489,8 +535,11 @@
         </div>
         
         <div id="qnaWrap" class="faqWrap">
+          <div class="bgImg">
+            <img src="./img/qnaImg2.png" alt="">
+          </div>
           <div class="leftWrap">
-            <img src="./img/qnaImg.png" alt="">
+            <img src="./img/qnaImg1.png" alt="">
           </div>
           <div class="rightWrap">
             <div class="titleWrap">
@@ -498,7 +547,7 @@
             </div>
             <div class="contentsWrap">
               <p>
-                정기 등록 및 수업 관련 문의는<br/>
+                정기 등록 및 수업 관련 문의는
                 전화 또는 아래 버튼을 클릭하여 문의해주세요.<br/>
                 네이버 톡도 가능합니다. ^^<br/>
                 <br/>

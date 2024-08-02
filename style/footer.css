@@ -3,7 +3,7 @@
 	justify-content: space-between;
 }
 #footer .leftContentsWrap {
-	width: 50%;
+	width: 40%;
   position: relative;
 	display: flex;
 	justify-content: flex-start;
@@ -39,9 +39,8 @@
 #footer .leftContentsWrap .textGroup span:not(:last-child) {
   margin-bottom: 4px;
 }
-
 #footer .rightContentsWrap {
-	width: 50%;
+	width: 60%;
   display: flex;
   justify-content: right;
 }
@@ -62,4 +61,42 @@
 }
 #footer .rightContentsWrap .menuGroup li a:hover {
   color: #1E4527;
+}
+
+/* 769px 이하 화면*/
+@media screen and (max-width: 769px) {
+  #footer .container {
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  #footer .rightContentsWrap {
+    width: 100%;
+    justify-content: center;
+  }
+  #footer .leftContentsWrap {
+    width: 100%;
+    align-items: center;
+    margin-top: 36px;
+  }
+  #footer .leftContentsWrap .textGroup span {
+    text-align: center;
+  }
+}
+
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
+  #footer .rightContentsWrap .menuGroup {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #footer .rightContentsWrap .menuGroup li {
+    width: 33.333%;
+    text-align: center;
+  }
+  #footer .rightContentsWrap .menuGroup li:nth-child(-n+3) {
+    margin-bottom: 14px;
+  }
+  #footer .rightContentsWrap .menuGroup li:not(:last-child) a {
+    margin: 0;
+  }
 }

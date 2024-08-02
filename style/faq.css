@@ -97,6 +97,9 @@
   display: flex;
   justify-content: space-between;
 }
+#faq #qnaWrap .bgImg {
+  display: none;
+}
 #faq #qnaWrap .leftWrap {
   width: 30%;
   height: auto;
@@ -139,7 +142,7 @@
 
 
 /* 소형 태블릿 */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   #faqWrap .expWrapBg,
   #faqWrap .qnaWrapBg {
     display: none;
@@ -152,10 +155,12 @@
   #faq .container #qnaWrap {
     width: 100%;
   }
+  
   #faq .container #expWrap {
     background-color: #1E4527;
   }
   #faq .container #qnaWrap {
+    padding-left: 30px;
     background-color: #406F4B;
   }
   #faq #expWrap .titleWrap h1,
@@ -163,7 +168,7 @@
     margin-top: 0;
   }
   #faq #expWrap .contentsWrap li {
-    width: 32%;
+    width: 32.5%;
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.4;
@@ -172,5 +177,35 @@
   }
   #faq #expWrap .contentsWrap li:last-child {
     margin: 0;
+  }
+
+  #faq #qnaWrap {
+    justify-content: left;
+  }
+  #faq #qnaWrap .leftWrap {
+    width: 20%;
+    margin-top: 0;
+  }
+  #faq #qnaWrap .rightWrap {
+    margin-left: 30px;
+    z-index: 12;
+  }
+  #faq #qnaWrap .rightWrap .bgImg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    right: 0;
+    top: 0;
+  }
+  #faq #qnaWrap .bgImg {
+    height: 100%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -1px;
+  }
+  #faq #qnaWrap .bgImg img {
+    display: block;
+    height: 100%;
   }
 }

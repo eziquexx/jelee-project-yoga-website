@@ -355,7 +355,6 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  
   #about .titleWrap h1,
   #history .titleWrap h1 {
     font-size: 2.4rem;
@@ -385,7 +384,7 @@ html, body {
   #schedule .scheduleViewToggle,
   #schedule .scheduleTableWrap,
   #studioGallery,
-  #contact
+  #contact,
   #footer,
   #copyright {
     padding-left: 16px;
@@ -427,7 +426,7 @@ html, body {
   #schedule .scheduleViewToggle,
   #schedule .scheduleTableWrap,
   #studioGallery,
-  #contact
+  #contact,
   #footer,
   #copyright {
     padding-left: 10px;

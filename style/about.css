@@ -19,7 +19,6 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 #about .container .imgWrap {
   width: 48%;
   height: 340px;
@@ -41,7 +40,6 @@
  float: right;
  text-align: left;
 }
-
 #about .container .textWrap .contentsWrap {
   display: block;
   font-size: 16px;
@@ -49,7 +47,6 @@
   color: #fff;
   margin-top: 10px;
 }
-
 
 /* 1024px 이하 화면*/
 @media screen and (max-width: 1024px) {
@@ -116,7 +113,6 @@
   #about .titleWrap {
     margin-bottom: 20px;
   }
-
 }
 
 /* 320px 이하 화면*/
@@ -128,4 +124,3 @@
     margin-bottom: 10px;
   }
 }
-

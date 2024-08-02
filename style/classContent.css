@@ -1,4 +1,3 @@
-
 #classContent .bg_wh {
   width: 100%;
   height: 30%;
@@ -7,20 +6,17 @@
   background-color: #fff;
 }
 #classContent .bg_wh1 {
-  /* height: 1175px; */
   top: 318px;
 }
 #classContent .bg_wh2 {
-  /* height: 310px; */
   bottom: 0;
 }
-
 #classContent .container .contentsWrap {
   position: relative;
   margin-top: 50px;
   box-sizing: border-box;
 }
-#classContent .contentsWrap .listItems {
+#classContent .container .contentsWrap .listItems {
   position: relative;
   width: 100%;
   display: flex;
@@ -29,14 +25,12 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-#classContent .contentsWrap .listItems:not(:last-child) {
+#classContent .container .contentsWrap .listItems:not(:last-child) {
   margin-bottom: 50px;
 }
-#classContent .contentsWrap .listItems .listItemImg {
+#classContent .container .contentsWrap .listItems .listItemImg {
   width: 49%;
   height: auto;
-  /* width: 508px; */
-  /* height: 340px; */
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
@@ -44,38 +38,38 @@
   box-sizing: content-box;
   overflow: hidden;
 }
-#classContent .contentsWrap .leftItems .listItemImg {
+#classContent .container .contentsWrap .leftItems .listItemImg {
   border-radius: 150px 10px 10px 10px;
 }
-#classContent .contentsWrap .rightItems .listItemImg {
+#classContent .container .contentsWrap .rightItems .listItemImg {
   border-radius: 10px 150px 10px 10px;
 }
-#classContent .contentsWrap .listItems .listItemImg img {
+#classContent .container .contentsWrap .listItems .listItemImg img {
   width: 100%;
   display: block;
   box-sizing: border-box;
 }
-#classContent .contentsWrap .leftItems .listItemImg img {
+#classContent .container .contentsWrap .leftItems .listItemImg img {
   border-radius: 150px 10px 10px 10px;
 }
-#classContent .contentsWrap .rightItems .listItemImg img {
+#classContent .container .contentsWrap .rightItems .listItemImg img {
   border-radius: 10px 150px 10px 10px;
 }
-#classContent .listItems .listItemTextWrap {
+#classContent .container .listItems .listItemTextWrap {
   width: 48%;
   box-sizing: border-box;
 }
-#classContent .leftItems .listItemTextWrap {
+#classContent .container .leftItems .listItemTextWrap {
   text-align: left;
 }
-#classContent .rightItems .listItemTextWrap {
+#classContent .container .rightItems .listItemTextWrap {
   text-align: right;
 }
-#classContent .listItems .listItemTextWrap .listItemTitleWrap {
+#classContent .container .listItems .listItemTextWrap .listItemTitleWrap {
   position: relative;
   height: 54px;
 }
-#classContent .listItems .listItemTextWrap .listItemTitleWrap .listItemLine {
+#classContent .container .listItems .listItemTextWrap .listItemTitleWrap .listItemLine {
   width: 4px;
   height: 100%;
   background-color: #24553F;
@@ -117,20 +111,19 @@
   display: block;
 }
 
-
-/* 중형 스마트폰 */
+/* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
+  #classContent .container .contentsWrap {
+    margin-top: 40px;
+  }
   #classContent .container .contentsWrap .leftItems {
-    display: flex;
     flex-direction: column;
   }
   #classContent .container .contentsWrap .rightItems {
-    display: flex;
     flex-direction: column-reverse;
   }
   #classContent .container .contentsWrap .listItems .listItemImg {
     width: 90%;
-    height: auto;
     margin: 0 auto;
   }
   #classContent .container .listItems .listItemTextWrap {
@@ -144,67 +137,48 @@
     float: left;
     margin: 0;
     margin-right: 10px;
-  }
+  } 
 }
 
-
-/* 소형 스마트폰2 */
+/* 600px 이하 화면*/
 @media screen and (max-width: 600px) { 
-  #classContent .container .contentsWrap .leftItems {
-    display: flex;
-    flex-direction: column;
-  }
-  #classContent .container .contentsWrap .rightItems {
-    display: flex;
-    flex-direction: column-reverse;
+  #classContent .container .contentsWrap {
+    margin-top: 30px;
   }
   #classContent .container .contentsWrap .listItems .listItemImg {
     width: 100%;
-    height: auto;
-    margin: 0 auto;
   }
   #classContent .container .listItems .listItemTextWrap {
     width: 100%;
     text-align: left;
-    margin: 25px auto 0;
-  }
-  #classContent .container .rightItems .listItemTextWrap .listItemTitleWrap .listItemLine {
-    float: left;
-    margin: 0;
-    margin-right: 10px;
   }
 }
 
-/* 소형 스마트폰1 */
+/* 480px 이하 화면*/
 @media screen and (max-width: 480px) {
-  #classContent .container .contentsWrap .leftItems {
-    display: flex;
-    flex-direction: column;
-  }
-  #classContent .container .contentsWrap .rightItems {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  #classContent .container .contentsWrap .listItems .listItemImg {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-  #classContent .container .listItems .listItemTextWrap {
-    width: 100%;
-    text-align: left;
-    margin: 25px auto 0;
-  }
   #classContent .container .listItems .listItemTextWrap .listItemTitleWrap {
     height: 46px;
   }
+  #classContent .container .leftItems .listItemTextWrap .listItemTitleWrap .listItemLine {
+    margin-top: 2px;
+  }
   #classContent .container .rightItems .listItemTextWrap .listItemTitleWrap .listItemLine {
     float: left;
     margin: 0;
+    margin-top: 2px;
     margin-right: 10px;
   }
   #classContent .container .listItems .listItemTextWrap .listItemTitleWrap .listItemTitleGroup h1 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 
+/* 320px 이하 화면*/
+@media screen and (max-width: 320px) {
+  #classContent .container .listItems .listItemTextWrap .listItemTitleWrap {
+    height: 42px;
+  }
+  #classContent .container .listItems .listItemTextWrap .listItemTitleWrap .listItemTitleGroup h1 {
+    font-size: 1.4rem;
+  }
+}

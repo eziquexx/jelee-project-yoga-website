@@ -1,4 +1,3 @@
-
 #classType .contentsWrap {
   display: flex;
   justify-content: space-around;
@@ -40,7 +39,6 @@
   line-height: 120%;
   color: #222;
 }
-
 #classType .container .contentsWrap .listItems:nth-child(1) li:nth-child(1) {
   background-image: url(../img/classType_icon1.png);
 }
@@ -51,15 +49,11 @@
   background-image: url(../img/classType_icon3.png);
 }
 
-/* 중형 스마트폰 */
+/* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
   #classType .contentsWrap {
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-top: 50px;
-    box-sizing: border-box;
-    overflow: hidden;
   }
   #classType .container .contentsWrap .listItems {
     width: 100%;
@@ -73,38 +67,28 @@
   }
   #classType .container .contentsWrap .listItems li:nth-child(2) {
     font-size: 1.6rem;
-    /* font-size: 1.2rem; */
   }
   #classType .container .contentsWrap .listItems li:nth-child(3) {
     font-size: 1.4rem;
   }
 }
 
-/* 소형 스마트폰 2 */
+/* 600px 이하 화면*/
 @media screen and (max-width: 600px) {
-  #classType .container .contentsWrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    box-sizing: border-box;
-    overflow: hidden;
-  }
   #classType .container .contentsWrap .listItems {
     display: block;
     width: 100%;
-    height: auto;
     margin-bottom: 30px;
   }
   #classType .container .contentsWrap .listItems:last-child {
     margin-bottom: 0;
   }
-  #classType .container .contentsWrap .listItems li {
-    display: block;
-    box-sizing: border-box;
+  #classType .container .contentsWrap .listItems li:nth-child(3) {
+    font-size: 1.2rem;
   }
 }
 
-/* 소형 스마트폰 1 */
+/* 480px 이하 화면*/
 @media screen and (max-width: 480px) {
   #classType .container .contentsWrap {
     display: flex;
@@ -113,12 +97,6 @@
     box-sizing: border-box;
     overflow: hidden;
   }
-  #classType .container .contentsWrap .listItems {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-  }
   #classType .container .contentsWrap .listItems:last-child {
     margin-bottom: 0;
   }
@@ -128,3 +106,12 @@
   }
 }
 
+/* 380px 이하 화면*/
+@media screen and (max-width: 380px) {
+  #classType .container .contentsWrap .listItems li:nth-child(2) {
+    font-size: 1.2rem;
+  }
+  #classType .container .contentsWrap .listItems li:nth-child(3) {
+    font-size: 1rem;
+  }
+}

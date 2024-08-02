@@ -1,5 +1,4 @@
 #home .container .textWrap {
-  /* width: 510px; */
   width: 52%;
   min-width: 500px;
   position: absolute;
@@ -88,7 +87,6 @@
   #home .container {
     margin-top: 50px;
   }
-  
   #home .container .textWrap {
     transform: translateY(22%);
   }
@@ -106,6 +104,7 @@
     height: 368px;
   }
 }
+
 /* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
   #home {
@@ -145,6 +144,7 @@
     height: 368px;
   }
 }
+
 /* 600px 이하 화면*/
 @media screen and (max-width: 600px) {
   #home {
@@ -177,6 +177,7 @@
     height: 368px;
   }
 }
+
 /* 480px 이하 화면*/
 @media screen and (max-width: 480px) {
   #home {
@@ -215,7 +216,7 @@
   }
 }
 
-/* 380px 이하의 화면에서 적용될 스타일 */
+/* 380px 이하 화면*/
 @media screen and (max-width: 380px) {
   #home .container .textWrap .mainText {
     font-size: 2rem;
@@ -226,4 +227,3 @@
     margin-top: 30px;
   }
 }
-

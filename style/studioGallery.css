@@ -13,9 +13,6 @@
   width: 32%;
   height: auto;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
   box-sizing: border-box;
   cursor: pointer;
@@ -23,29 +20,21 @@
 #studioGallery .contentsWrap ul li:nth-child(-n+3) {
   margin-bottom: 20px;
 }
-
 #studioGallery .contentsWrap ul li img {
   width: 100%;
   height: auto;
+  position: relative;
   display: block; 
   box-sizing: border-box;
   transition: all 0.4s ease;
 }
 #studioGallery .contentsWrap ul li .transBk {
-  display: none;
-  transition: all 0.4s ease;
-}
-#studioGallery .contentsWrap ul li:hover img {
-  transform: scale(1.2);
-}
-
-#studioGallery .contentsWrap ul li:hover .transBk {
   width: 100%;
   height: 100%;
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
-  display: table;
   z-index: 777;
   font-size: 1.5rem;
   font-weight: 300;
@@ -53,6 +42,13 @@
   padding: 10px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.4s ease;
+}
+#studioGallery .contentsWrap ul li:hover img {
+  transform: scale(1.2);
+}
+#studioGallery .contentsWrap ul li:hover .transBk {
+  display: table;
 } 
 #studioGallery .contentsWrap ul li .transBk span {
   width: 100%;
@@ -63,4 +59,49 @@
   text-align: center;
   box-sizing: border-box;
   border: 2px solid #fff;
+}
+
+/* 769px 이하 화면*/
+@media screen and (max-width: 769px) {
+  #studioGallery .contentsWrap ul li {
+    width:48.4%;
+  }
+  #studioGallery .contentsWrap ul li:not(:nth-child(n+5)) {
+    margin-bottom: 20px;
+  }
+}
+
+/* 600px 이하 화면*/
+@media screen and (max-width: 600px) {
+  #studioGallery .contentsWrap ul li {
+    width: 100%;
+    /* width: 47.9%; */
+    margin: 0;
+  }
+  #studioGallery .contentsWrap ul li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  #studioGallery .contentsWrap ul li .transBk {
+    font-size: 2rem;
+  }
+}
+
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
+  #studioGallery .contentsWrap {
+    margin-top: 30px;
+  }
+}
+
+/* 380px 이하 화면*/
+@media screen and (max-width: 380px) {
+  #studioGallery .contentsWrap {
+    margin-top: 20px;
+  }
+  #studioGallery .contentsWrap ul li .transBk {
+    font-size: 1.7rem;
+  }
+  #studioGallery .contentsWrap ul li:not(:last-child) {
+    margin-bottom: 14px;
+  } 
 }

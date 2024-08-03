@@ -278,11 +278,12 @@ html, body {
   #classContent,
   #schedule .scheduleTableWrap,
   #studioGallery,
-  #contact {
+  #contact,
+  #footer {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   #navBar {
     padding-top: 0;
@@ -327,7 +328,7 @@ html, body {
 
 /* 600px 이하 화면*/
 @media screen and (max-width: 600px) {
-  #navBar,
+  /* #navBar,
   #home,
   #about,
   #history,
@@ -341,9 +342,9 @@ html, body {
   #copyright {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+    padding-top: 40px;
+    padding-bottom: 40px;
+  } */
   #navBar {
     padding-top: 0;
     padding-bottom: 0;
@@ -477,7 +478,7 @@ html, body {
   #faq #expWrap .titleWrap h1,
   #faq #qnaWrap .titleWrap h1,
   #contact .titleWrap h1 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   #about .titleWrap .titleLine, 
   #history .titleWrap .titleLine, 

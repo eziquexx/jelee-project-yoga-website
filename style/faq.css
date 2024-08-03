@@ -1,4 +1,3 @@
-
 #faqWrap .expWrapBg,
 #faqWrap .qnaWrapBg {
   width: 50%;
@@ -8,7 +7,6 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-
 #faqWrap .expWrapBg { 
   top: 0;
   left: 0;
@@ -19,7 +17,6 @@
   right: 0;
   background-color: #406F4B; 
 }
-
 #faq .container {
   display: flex;
   justify-content: space-between;
@@ -28,7 +25,6 @@
 #faq .container #qnaWrap {
   width: 50%;
 }
-
 #faq #expWrap { 
   padding-right: 20px;
   box-sizing: border-box;
@@ -37,11 +33,9 @@
   padding-left: 20px;
   box-sizing: border-box;
 }
-
 #faq #expWrap .titleWrap h1,
 #faq #qnaWrap .titleWrap h1 { font-size: 2rem; }
 #faq #expWrap .titleWrap h3 { font-size: 0.9rem; }
-
 #faq #expWrap .contentsWrap {
   width: 100%;
   position: relative;
@@ -57,7 +51,6 @@
   font-weight: 400;
   line-height: 1.4;
   color: #fff;
-  border: 1px solid yellow;
   box-sizing: border-box;
 }
 #faq #expWrap .contentsWrap li:last-child {
@@ -68,6 +61,7 @@
   display: flex;
   align-items: center;
   font-weight: 600;
+  color: #d5ff92;
   box-sizing: border-box;
 }
 #faq #expWrap .contentsWrap li h4::before { 
@@ -75,7 +69,7 @@
   height: 6px;
   display: block;
   content: '';
-  background-color: #ffffff;
+  background-color: #d5ff92;
   border-radius: 50%;
   box-sizing: border-box;
   float: left;
@@ -90,8 +84,6 @@
   margin-top: 10px;
   padding-left: 14px;
 }
-
-
 #faq #qnaWrap {
   position: relative;
   display: flex;
@@ -105,12 +97,9 @@
   height: auto;
   position: relative;
   margin-top: 20px;
-  /* margin-right: 10px; */
-  background-color: #999;
 }
 #faq #qnaWrap .leftWrap img {
   width: 100%;
-  /* height: 100%; */
   display: block;
 }
 #faq #qnaWrap .rightWrap {
@@ -125,23 +114,21 @@
 #faq #qnaWrap .rightWrap .contentsWrap p {
   margin-top: 20px;
   box-sizing: border-box;
-
 }
 #faq #qnaWrap .rightWrap .contentsWrap .btnGroup {
-  margin-top: 10px;
-  font-size: 1rem;
+  margin-top: 22px;
 }
 #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a {
-  color: #fff;
+  color: #1e4527;
   font-size: 0.9rem;
+  font-weight: 600;
   text-decoration: none;
 }
 #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a:first-child {
   margin-right: 14px;
 }
 
-
-/* 소형 태블릿 */
+/* 1024px 이하 화면*/
 @media screen and (max-width: 1024px) {
   #faqWrap .expWrapBg,
   #faqWrap .qnaWrapBg {
@@ -155,7 +142,6 @@
   #faq .container #qnaWrap {
     width: 100%;
   }
-  
   #faq .container #expWrap {
     background-color: #1E4527;
   }
@@ -169,7 +155,7 @@
   }
   #faq #expWrap .contentsWrap li {
     width: 32.5%;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.4;
     color: #fff;
@@ -178,7 +164,6 @@
   #faq #expWrap .contentsWrap li:last-child {
     margin: 0;
   }
-
   #faq #qnaWrap {
     justify-content: left;
   }
@@ -187,8 +172,13 @@
     margin-top: 0;
   }
   #faq #qnaWrap .rightWrap {
+    width: 74%;
     margin-left: 30px;
     z-index: 12;
+  }
+  #faq #qnaWrap .rightWrap .contentsWrap,
+  #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a {
+    font-size: 1.1rem;
   }
   #faq #qnaWrap .rightWrap .bgImg {
     position: absolute;
@@ -207,5 +197,123 @@
   #faq #qnaWrap .bgImg img {
     display: block;
     height: 100%;
+  }
+}
+
+/* 900px 이하 화면*/
+@media screen and (max-width: 900px) {
+  #faq #expWrap .contentsWrap {
+    margin-top: 30px;
+  }
+  #faq #expWrap .contentsWrap li {
+    width: 50%;
+    font-size: 1.3rem;
+  }
+  #faq #expWrap .contentsWrap li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  #faq #qnaWrap .rightWrap {
+    width: 74%;
+  }
+  #faq #qnaWrap .rightWrap .contentsWrap,
+  #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a  {
+    font-size: 1.3rem;
+  }
+  #faq #qnaWrap .bgImg img {
+    margin-right: -130px;
+  }
+  #faq #qnaWrap .leftWrap {
+    margin-top: 6px;
+  }
+}
+
+/* 769px 이하 화면*/
+@media screen and (max-width: 769px) {
+  #faq #expWrap .contentsWrap li {
+    font-size: 1rem;
+  }
+  #faq #qnaWrap .rightWrap .contentsWrap,
+  #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a {
+    font-size: 1rem;
+  }
+}
+
+/* 600px 이하 화면*/
+@media screen and (max-width: 600px) {
+  #faq #expWrap .contentsWrap {
+    flex-direction: column;
+  }
+  #faq #expWrap .contentsWrap li {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  #faq #expWrap .contentsWrap li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  #faq #expWrap .contentsWrap li p {
+    font-size: 1.1rem;
+  }
+  #faq #expWrap .contentsWrap li h4 span {
+    font-size: 1rem;
+  }
+  #faq #qnaWrap .bgImg img {
+    margin-right: -170px;
+  }
+  #faq #qnaWrap .leftWrap {
+    display: none;
+  }
+  #faq #qnaWrap .rightWrap {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* 480px 이하 화면*/
+@media screen and (max-width: 480px) {
+  #faq .titleWrap {
+    flex-direction: column;
+  }
+  #faq #expWrap .contentsWrap {
+    justify-content: center;
+    align-items: center;
+  }
+  #faq #expWrap .contentsWrap li {
+    text-align: center;
+    flex-direction: column;
+  }
+  #faq #expWrap .contentsWrap li h4 {
+    display: block;
+  }
+  #faq #expWrap .contentsWrap li h4::before {
+    display: none;
+  }
+  #faq #qnaWrap .bgImg {
+    display: none;
+  }
+  #faq .container #qnaWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* 380px 이하 화면*/
+@media screen and (max-width: 380px) {
+  #faq #expWrap .contentsWrap li,
+  #faq #expWrap .contentsWrap li p {
+    font-size: 1rem;
+  }
+  #faq #expWrap .contentsWrap li h4 span {
+    font-size: 0.9rem;
+  }
+  #faq #qnaWrap .rightWrap .contentsWrap .btnGroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #faq #qnaWrap .rightWrap .contentsWrap .btnGroup a:first-child {
+    margin: 0;
+    margin-bottom: 10px;
   }
 }

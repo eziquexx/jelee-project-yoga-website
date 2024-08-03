@@ -367,7 +367,7 @@ html, body {
     margin-top: 32px;
   }
   #faq #expWrap .titleWrap h3 {
-    margin-top: 32px;
+    margin-top: 12px;
   }
   #about .titleWrap .titleLine, 
   #history .titleWrap .titleLine, 
@@ -403,7 +403,9 @@ html, body {
   #faq #qnaWrap .titleWrap h1,
   #contact .titleWrap h1 {
     font-size: 2rem;
+    margin-left: 0;
   }
+
   #schedule .scheduleTableWrap .titleWrap h1 {
     font-size:1.7rem;
   }
@@ -411,10 +413,22 @@ html, body {
   #contact .titleWrap h3 {
     margin-top: 28px;
   }
+  #about .titleWrap,
+  #history .titleWrap,
+  #faq .titleWrap,
+  #contact .titleWrap  {
+    height: auto;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
   #about .titleWrap .titleLine, 
   #history .titleWrap .titleLine, 
   #contact .titleWrap .titleLine {
-    height: 66%;
+    /* height: 66%; */
+    display: none;
   }
 }
 

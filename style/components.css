@@ -31,9 +31,7 @@ html, body {
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  /* border: 1px solid blue; */
 }
-
 #header {
   height: 758px;
   padding: 0;
@@ -85,7 +83,6 @@ html, body {
 #footer { background-color: #61926C; }
 #copyright { background-color: #517C5B; }
 
-
 /* .container */
 #navBar .container,
 #home .container,
@@ -104,13 +101,9 @@ html, body {
   width: 100%;
   max-width: 1080px;
   overflow: hidden;
-  /* padding-left: 16px;
-  padding-right: 16px; */
   margin: 0 auto;
   box-sizing: border-box;
-  border: 1px solid red;
 }
-
 #navBar .container {
   display: flex;
   justify-content: space-between;
@@ -118,7 +111,6 @@ html, body {
 #home .container {
   margin-top: 70px;
 }
-
 
 /* .titleWrap */
 #about .titleWrap,
@@ -134,7 +126,6 @@ html, body {
   text-align: center;
   box-sizing: border-box;
 }
-
 #about .titleWrap,
 #history .titleWrap,
 #faq .titleWrap,
@@ -144,16 +135,11 @@ html, body {
   align-items: center;
   justify-content: flex-start;
 }
-
 #about .titleWrap { height: 86px; }
-#history .titleWrap {
+#history .titleWrap,
+#contact .titleWrap {
   height: 46px;
 }
-#contact .titleWrap {
-  height: auto;
-  
-}
-
 
 /* .titleWrap .titleLine */
 #about .titleWrap .titleLine,
@@ -198,7 +184,6 @@ html, body {
   margin-top: 22px;
 }
 
-
 /* .titleWrap h1 */
 #about .titleWrap h1,
 #history .titleWrap h1,
@@ -215,7 +200,9 @@ html, body {
   font-weight: 600;
   line-height: 1.2;
 }
-
+#schedule .scheduleTableWrap .titleWrap h1 {
+  margin-top: 0;
+}
 #about .titleWrap h1 { color: #fff; }
 #history .titleWrap h1 { color: #fff; }
 #classType .titleWrap h1 { color: #1E4527; }
@@ -232,7 +219,6 @@ html, body {
   margin-top: 0;
   margin-left: 10px;
 }
-
 
 /* 1024px 이하 화면*/
 @media screen and (max-width: 1024px) {
@@ -253,23 +239,19 @@ html, body {
     padding-left: 30px;
     padding-right: 30px;
   }
-  
   #faqWrap,
   #faq {
     padding: 0;
   }
-
   #faq #expWrap,
   #faq #qnaWrap {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-
   #schedule .scheduleTableWrap .container {
     width: 90%;
   }
 }
-
 
 /* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
@@ -344,23 +326,6 @@ html, body {
 
 /* 600px 이하 화면*/
 @media screen and (max-width: 600px) {
-  /* #navBar,
-  #home,
-  #about,
-  #history,
-  #classType,
-  #classContent,
-  #schedule .scheduleViewToggle,
-  #schedule .scheduleTableWrap,
-  #studioGallery,
-  #contact,
-  #footer,
-  #copyright {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  } */
   #navBar {
     padding-top: 0;
     padding-bottom: 0;
@@ -369,7 +334,6 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   #schedule .scheduleViewToggle {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -378,9 +342,11 @@ html, body {
   #history .titleWrap h1 {
     font-size: 2.4rem;
   }
-  #history .titleWrap h3,
-  #contact .titleWrap h3 {
+  #history .titleWrap h3 {
     margin-top: 32px;
+  }
+  #contact .titleWrap h3 {
+    margin-top: 0;
   }
   #faq #expWrap .titleWrap h3 {
     margin-top: 12px;
@@ -421,7 +387,6 @@ html, body {
     font-size: 2rem;
     margin-left: 0;
   }
-
   #schedule .scheduleTableWrap .titleWrap h1 {
     font-size:1.7rem;
   }
@@ -435,15 +400,12 @@ html, body {
   #contact .titleWrap  {
     height: auto;
     text-align: center;
-    /* display: flex; */
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column-reverse;
   }
   #about .titleWrap .titleLine, 
   #history .titleWrap .titleLine, 
   #contact .titleWrap .titleLine {
-    /* height: 66%; */
     display: none;
   }
 }
@@ -486,7 +448,6 @@ html, body {
   #classType .titleWrap h3, 
   #classContent .titleWrap h3, 
   #contact .titleWrap h3 {
-    /* margin-top: 20px; */
     font-size: 0.7rem;
     margin-left: 5px;
   }

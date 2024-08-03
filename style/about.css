@@ -21,7 +21,9 @@
 }
 #about .container .imgWrap {
   width: 48%;
-  height: 340px;
+  height: 310px;
+  margin-top: 10px;
+  /* height: 340px; */
   position: absolute;
   border-radius: 150px 0 150px 0;
   background-image: url(../img/header_img3.png);
@@ -29,13 +31,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-#about .container .imgWrap img {
-  display: block;
-  width: 100%;
-}
 #about .container .textWrap {
  width: 48%;
- height: 355px; 
+ height: auto; 
  position: relative;
  float: right;
  text-align: left;

@@ -1,3 +1,6 @@
+.scheduleViewToggle {
+    cursor: pointer;
+}
 .scheduleViewToggle .textWrap {
     position: relative;
     display: flex;

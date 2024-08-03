@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./style/classContent.css">
   <link rel="stylesheet" href="./style/schedule.css">
   <link rel="stylesheet" href="./style/studioGallery.css">
+  <link rel="stylesheet" href="./style/modal.css">
   <link rel="stylesheet" href="./style/faq.css">
   <link rel="stylesheet" href="./style/contact.css">
   <link rel="stylesheet" href="./style/footer.css">
@@ -37,7 +38,7 @@
             <li><a href="#">체험/문의</a></li>
             <li><a href="#">오시는길</a></li>
           </ul>
-          <a href="javascript:void(0)" class="naverTalk"></a>
+          <a href="#" onclick="preventDefault()" class="naverTalk"></a>
           <div id="toggleBtn"></div>
         </div>
       </div>
@@ -453,7 +454,7 @@
         <h1>실내 사진</h1>
       </div>
       <div class="contentsWrap">
-        <ul>
+        <ul class="studioImgGroup">
           <li>
             <img src="./img/studio_img1.jpeg" alt="">
             <div class="transBk">
@@ -492,6 +493,10 @@
           </li>
         </ul>
       </div>
+    </div>
+    <div id="galleryModal">
+      <span class="close">&times;</span>
+      <img class="modal-content">
     </div>
   </section>
   <section id="faqWrap">
@@ -657,10 +662,11 @@
   </div>
 
   <script>
-    function no_event(e) {
+    function preventDefault(e) {
       e.preventDefault();
     }
   </script>
+  <script src="./js/modal.js"></script>
   <script src="./js/toggleBtn.js"></script>
   <script src="./js/scheduleToggleBtn.js"></script>
   <script src="./js/topBtn.js"></script>

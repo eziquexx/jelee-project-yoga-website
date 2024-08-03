@@ -49,6 +49,7 @@
 #navBar .menuWrap .naverTalk {
   width: 116px;
   height: 42px;
+  display: block;
   background-image: url(../img/naverTalk.png);
   background-repeat: no-repeat;
   background-size: cover;

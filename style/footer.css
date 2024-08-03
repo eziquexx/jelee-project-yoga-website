@@ -44,22 +44,22 @@
   display: flex;
   justify-content: right;
 }
-#footer .rightContentsWrap .menuGroup {
+#footer .rightContentsWrap .subMenuGroup {
   position: relative;
   display: flex;
   justify-content: flex-end;
 }
-#footer .rightContentsWrap .menuGroup li a {
+#footer .rightContentsWrap .subMenuGroup li a {
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
 }
-#footer .rightContentsWrap .menuGroup li:not(:last-child) a {
+#footer .rightContentsWrap .subMenuGroup li:not(:last-child) a {
   margin-right: 20px;
 }
-#footer .rightContentsWrap .menuGroup li a:hover {
+#footer .rightContentsWrap .subMenuGroup li a:hover {
   color: #1E4527;
 }
 
@@ -85,18 +85,18 @@
 
 /* 480px 이하 화면*/
 @media screen and (max-width: 480px) {
-  #footer .rightContentsWrap .menuGroup {
+  #footer .rightContentsWrap .subMenuGroup {
     justify-content: center;
     flex-wrap: wrap;
   }
-  #footer .rightContentsWrap .menuGroup li {
+  #footer .rightContentsWrap .subMenuGroup li {
     width: 33.333%;
     text-align: center;
   }
-  #footer .rightContentsWrap .menuGroup li:nth-child(-n+3) {
+  #footer .rightContentsWrap .subMenuGroup li:nth-child(-n+3) {
     margin-bottom: 14px;
   }
-  #footer .rightContentsWrap .menuGroup li:not(:last-child) a {
+  #footer .rightContentsWrap .subMenuGroup li:not(:last-child) a {
     margin: 0;
   }
 }

@@ -22,8 +22,6 @@
   <link rel="stylesheet" href="./style/footer.css">
   <link rel="stylesheet" href="./style/copyright.css">
   <link rel="stylesheet" href="./style/topBtn.css">
-
-  
 </head>
 <body>
   <header id="header">
@@ -32,14 +30,14 @@
         <div class="logo"><a href="#" data-name="logo">PUSHPAYOGA</a></div>
         <div class="menuWrap">
           <ul class="menuGroup">
-            <li><a href="">소개</a></li>
-            <li><a href="">수업</a></li>
-            <li><a href="">시간표</a></li>
-            <li><a href="">실내사진</a></li>
-            <li><a href="">체험/문의</a></li>
-            <li><a href="">오시는길</a></li>
+            <li><a href="#">소개</a></li>
+            <li><a href="#">수업</a></li>
+            <li><a href="#">시간표</a></li>
+            <li><a href="#">실내사진</a></li>
+            <li><a href="#">체험/문의</a></li>
+            <li><a href="#">오시는길</a></li>
           </ul>
-          <div class="naverTalk"></div>
+          <a href="javascript:void(0)" class="naverTalk"></a>
           <div id="toggleBtn"></div>
         </div>
       </div>
@@ -51,11 +49,11 @@
           <li><a href="#"><span>실내사진</span></a></li>
           <li><a href="#"><span>체험/문의</span></a></li>
           <li><a href="#"><span>오시는길</span></a></li>
-          <li><a href="#"><span>톡톡 문의</span></a></li>
+          <li><a href="javascript:void(0);"><span>톡톡 문의</span></a></li>
         </ul>
       </div>
     </nav>
-    <script src="./js/toggleBtn.js"></script>
+    
 
     <section id="home">
       <div class="container">
@@ -448,7 +446,6 @@
       </div>
     </div>  
   </section>
-  <script src="./js/scheduleToggleBtn.js"></script>
   <section id="studioGallery">
     <div class="container">
       <div class="titleWrap">
@@ -552,8 +549,8 @@
                 연락처: 031-123-4567
               </p>
               <div class="btnGroup">
-                <a href="#">문의글 남기기 &#62;</a>
-                <a href="#">네이버톡 &#62;</a>
+                <a href="javascript:void(0);">문의글 남기기 &#62;</a>
+                <a href="javascript:void(0);">네이버톡 &#62;</a>
               </div>
             </div>
           </div>
@@ -634,7 +631,7 @@
         </div>
       </div>
       <div class="rightContentsWrap">
-        <ul class="menuGroup">
+        <ul class="subMenuGroup">
           <li><a href="#">소개</a></li>
           <li><a href="#">수업</a></li>
           <li><a href="#">시간표</a></li>
@@ -645,6 +642,7 @@
       </div>
     </div>
   </footer>
+  
   <section id="copyright">
     <div class="container">
       <div class="textWrap">Copyright © 2024 Jelee. All rights reserved.</div>
@@ -657,5 +655,15 @@
     </div>
     <span class="text">위로</span>
   </div>
+
+  <script>
+    function no_event(e) {
+      e.preventDefault();
+    }
+  </script>
+  <script src="./js/toggleBtn.js"></script>
+  <script src="./js/scheduleToggleBtn.js"></script>
+  <script src="./js/topBtn.js"></script>
+  <script src="./js/moveSection.js"></script>
 </body>
 </html>

@@ -47,7 +47,8 @@
   top: 0;
 }
 #topBtn .text {
-  font-size: 1.2rem;
+  margin-top: 2px;
+  font-size: 1rem;
   font-weight: 600;
   color: #61926C;
   transition: color 0.3s ease;

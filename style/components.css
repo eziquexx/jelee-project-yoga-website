@@ -146,9 +146,12 @@ html, body {
 }
 
 #about .titleWrap { height: 86px; }
-#history .titleWrap,
-#contact .titleWrap {
+#history .titleWrap {
   height: 46px;
+}
+#contact .titleWrap {
+  height: auto;
+  
 }
 
 
@@ -293,15 +296,22 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  #contact .titleWrap {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
   #about .titleWrap .titleLine,
-  #history .titleWrap .titleLine,
-  #contact .titleWrap .titleLine {
+  #history .titleWrap .titleLine {
     height: 92%;
   }
   #about .titleWrap .titleLine, 
-  #history .titleWrap .titleLine, 
-  #contact .titleWrap .titleLine {
+  #history .titleWrap .titleLine {
     margin-top: 14px;
+  }
+  #contact .titleWrap .titleLine {
+    display: none;
   }
   #about .titleWrap h1,
   #history .titleWrap h1,
@@ -320,9 +330,15 @@ html, body {
     margin-top: 0;
     font-size: 2rem;
   }
-  #history .titleWrap h3, 
+  #contact .titleWrap h1 {
+    margin-left: 0;
+  }
+  #history .titleWrap h3 {
+    margin-top: 32px;
+  }
   #contact .titleWrap h3 {
-    margin-top: 42px;
+    margin-top: 0;
+    margin-left: 0;
   }
 }
 
@@ -411,7 +427,7 @@ html, body {
   }
   #history .titleWrap h3,
   #contact .titleWrap h3 {
-    margin-top: 28px;
+    margin-top: 0px;
   }
   #about .titleWrap,
   #history .titleWrap,

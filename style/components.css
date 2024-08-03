@@ -32,6 +32,10 @@ html, body {
   padding-right: 20px;
   box-sizing: border-box;
 }
+#navBar {
+  padding-lefT: 10px;
+  padding-right: 10px;
+}
 #header {
   height: 758px;
   padding: 0;
@@ -105,6 +109,7 @@ html, body {
   box-sizing: border-box;
 }
 #navBar .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -222,7 +227,6 @@ html, body {
 
 /* 1024px 이하 화면*/
 @media screen and (max-width: 1024px) {
-  #navBar,
   #home,
   #about, 
   #history, 
@@ -255,7 +259,6 @@ html, body {
 
 /* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
-  #navBar,
   #home,
   #about,
   #history,
@@ -269,10 +272,6 @@ html, body {
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-  #navBar {
-    padding-top: 0;
-    padding-bottom: 0;
   }
   #schedule .scheduleViewToggle {
     padding-top: 20px;
@@ -326,10 +325,6 @@ html, body {
 
 /* 600px 이하 화면*/
 @media screen and (max-width: 600px) {
-  #navBar {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
   #copyright {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -360,7 +355,6 @@ html, body {
 
 /* 480px 이하 화면*/
 @media screen and (max-width: 480px) {
-  #navBar,
   #home,
   #about,
   #history,
@@ -412,7 +406,6 @@ html, body {
 
 /* 380px 이하 화면*/
 @media screen and (max-width: 380px) {
-  #navBar,
   #home,
   #about,
   #history,

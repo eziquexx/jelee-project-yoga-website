@@ -11,7 +11,7 @@
 ## :walking: 프로젝트 목적
 HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 쌓는 것과 동적인 부분을 JavaScript만을 사용하여 구현을 함으로써 언어에 대한 이해도와 경험을 쌓기 위함입니다.
 
-## 개발 기간
+## :calendar: 개발 기간
 2024-06-25 ~ 2024-08-04
 - 06/15 ~ 06/16 레퍼런스 찾기
 - 06/16 ~ 6/22 기획 및 시안 작업
@@ -19,10 +19,10 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - 07/24 개발 시작
 - 08/04 개발 완료 및 종료
 
-## 프로그래머
-JELEE
+## 	:star: 프로그래머
+- JELEE
 
-## 개발 환경
+## :computer: 개발 환경
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 - Visual Studio Code

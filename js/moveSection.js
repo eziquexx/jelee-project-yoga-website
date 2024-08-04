@@ -42,6 +42,11 @@ sub_menus.forEach((subM, index) => subM.addEventListener('click', (e) => {
 }))
 
 
-
+document.querySelector('.goToAbout').addEventListener("click", () => {
+  window.scrollTo({
+    top: $about.offsetTop - 70,
+    behavior: "smooth",
+  })
+});
 
 

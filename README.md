@@ -51,23 +51,15 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 
 ## :eyes: 개발 참고 자료
 - 메뉴 클릭하면 각 섹션으로 이동, top 버튼 클릭하면 상단으로 이동
-    
-    https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo
-    
-    https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
-    
+  - [mozilla-scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
+  - [mozilla-offsetTop](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop)
 - 모달창, 마우스 스크롤과 모바일 스크롤 방지
-    
-    https://www.w3schools.com/howto/howto_css_modal_images.asp
-    
-    https://stackoverflow.com/questions/7915882/disabling-mouse-scrolling
-    
-    https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
-    
-    https://codepen.io/wesleypimentel/pen/KpgXJW
-    
-    https://stackoverflow.com/questions/10592411/disable-scrolling-in-all-mobile-devices
+  - [w3scholl-modal](https://www.w3schools.com/howto/howto_css_modal_images.asp)
+  - [stackoverflow-disabling mouse scrolling](https://stackoverflow.com/questions/7915882/disabling-mouse-scrolling)
+  - [mozilla-overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+  - [codepen-Disable scroll on Desktop and Mobile](https://codepen.io/wesleypimentel/pen/KpgXJW)
+  - [stackoverflow-Disable scrolling in all mobile devices](https://stackoverflow.com/questions/10592411/disable-scrolling-in-all-mobile-devices)
 
 ## :label: 저작권 및 사용권 정보
 - 개인 미니 프로젝트이며 상업적이 용도가 아닙니다.
-- [푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/){: target="_blank"}는 실존하는 요가원입니다.
+- [푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/)는 실존하는 요가원입니다.

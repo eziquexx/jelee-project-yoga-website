@@ -46,9 +46,13 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - 모바일 화면에서는 토글 버튼과 메뉴로 대체함.
   - classList.toggle() 사용.
 - 수업 시간표가 적힌 부분을 토글 기능을 넣어 시간표를 접었다 폈다 할 수 있는 기능을 추가함.
+  - classList.toggle() 사용.
 - 갤러리의 이미지를 클릭하면 모달창이 화면에 출력되는 기능.
+  - forEach()문, addEventListener("click") 사용.
 - 모달창에 뜨는 이미지는 사용자가 선택한 이미지의 src 속성 값을 추출하여 모달창에 뜨는 이미지에 값을 주어 출력되는 기능.
+  - modalImg.src = galleryImg.src 이런식으로 사용.
 - 모달창이 떴을 경우 마우스 스크롤하는 기능과 터치하여 움직이는 기능을 방지하는 기능을 추가함.
+  - document.body.style.overflow 사용, addEventListener("touchmove") 사용.
 
 ## :eyes: 개발 참고 자료
 - 메뉴 클릭하면 각 섹션으로 이동, top 버튼 클릭하면 상단으로 이동

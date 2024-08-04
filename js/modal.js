@@ -18,7 +18,7 @@ galleryImgGroup.forEach(img => img.addEventListener("click", () => {
 
   if(modal.style.display = 'block') {
     document.body.style.overflowY = 'hidden';
-    document.addEventListener('touchmove', preventDefalut, false);
+    document.addEventListener('touchmove', preventDefault, false);
   } 
   
 }));

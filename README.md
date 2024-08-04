@@ -1,6 +1,6 @@
 # JELEE Mini Project - Yoga Responsive Website Redesign
 실존하는 요가원 웹사이트를 선정하여 반응형으로 새롭게 제작하였습니다.
-- [JELEE Notion - Mini Project](https://www.notion.so/c6998e4a8d13433ab60b650051fa3cfa?pvs=4){: target="_blank"}로 이동하면 자세한 내용을 보실 수 있습니다.
+- [JELEE Notion - Mini Project][https://www.notion.so/c6998e4a8d13433ab60b650051fa3cfa?pvs=4]로 이동하면 자세한 내용을 보실 수 있습니다.
 
 ## 	:speech_balloon: 프로젝트 소개
 [푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/){: target="_blank"}의 웹사이트를 벤치마킹하여 Redesign을 하였습니다.

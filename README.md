@@ -28,7 +28,7 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - Visual Studio Code
 - GitHub
 
-## 기술 스택
+## :clipboard: 기술 스택
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -36,7 +36,7 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - CSS3
 - JavaScript
 
-## 주요 기능
+## :sparkles: 주요 기능
 - 원페이지 형식의 반응형 웹사이트입니다.
 - 미디어 쿼리를 사용하여 브라우져 화면의 너비마다 보여지는 모습이 다르게 제작.
   - media screen and (max: ...px) {}

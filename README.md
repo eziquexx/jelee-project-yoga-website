@@ -36,7 +36,7 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - CSS3
 - JavaScript
 
-## :sparkles: 주요 기능
+## :gear: 주요 기능
 - 원페이지 형식의 반응형 웹사이트입니다.
 - 미디어 쿼리를 사용하여 브라우져 화면의 너비마다 보여지는 모습이 다르게 제작.
   - media screen and (max: ...px) {}
@@ -49,9 +49,26 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - 모달창에 뜨는 이미지는 사용자가 선택한 이미지의 src 속성 값을 추출하여 모달창에 뜨는 이미지에 값을 주어 출력되는 기능.
 - 모달창이 떴을 경우 마우스 스크롤하는 기능과 터치하여 움직이는 기능을 방지하는 기능을 추가함.
 
-## 개발 참고
+## :eyes: 개발 참고 자료
+- 메뉴 클릭하면 각 섹션으로 이동, top 버튼 클릭하면 상단으로 이동
+    
+    https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo
+    
+    https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+    
+- 모달창, 마우스 스크롤과 모바일 스크롤 방지
+    
+    https://www.w3schools.com/howto/howto_css_modal_images.asp
+    
+    https://stackoverflow.com/questions/7915882/disabling-mouse-scrolling
+    
+    https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+    
+    https://codepen.io/wesleypimentel/pen/KpgXJW
+    
+    https://stackoverflow.com/questions/10592411/disable-scrolling-in-all-mobile-devices
 
-## 저작권 및 사용권 정보
-개인 미니 프로젝트이며 상업적이 용도가 아닙니다.
-푸쉬파 요가 스튜디오는 실존하는 요가원입니다.
-https://pushpayogastudio.modoo.at/
+## :label: 저작권 및 사용권 정보
+- 개인 미니 프로젝트이며 상업적이 용도가 아닙니다.
+- 푸쉬파 요가 스튜디오는 실존하는 요가원입니다.
+- https://pushpayogastudio.modoo.at/

@@ -1,4 +1,4 @@
-#footer .container {
+#footer .ft_container {
   display: flex;
 	justify-content: space-between;
 }
@@ -63,9 +63,16 @@
   color: #1E4527;
 }
 
+#copyright .textWrap {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
 /* 769px 이하 화면*/
 @media screen and (max-width: 769px) {
-  #footer .container {
+  #footer .ft_container {
     justify-content: flex-start;
     flex-direction: column-reverse;
   }
@@ -98,5 +105,8 @@
   }
   #footer .rightContentsWrap .subMenuGroup li:not(:last-child) a {
     margin: 0;
+  }
+  #copyright .textWrap {
+    font-size: 0.8rem;
   }
 }

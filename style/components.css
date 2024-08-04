@@ -20,8 +20,7 @@ html, body {
 #faqWrap,
 #faq,
 #contact,
-#footer,
-#copyright {
+#footer {
   position: relative;
   width: 100%;
   height: auto;
@@ -64,8 +63,13 @@ html, body {
   padding-bottom: 30px;
 }
 #footer { 
+  padding: 0;
+}
+#footer .ft_container {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #copyright { 
   padding-top: 8px;
@@ -99,7 +103,7 @@ html, body {
 #studioGallery .container,
 #faq .container,
 #contact .container,
-#footer .container,
+#footer .ft_container,
 #copyright .container {
   position: relative;
   width: 100%;
@@ -115,6 +119,10 @@ html, body {
 }
 #home .container {
   margin-top: 70px;
+}
+#footer .ft_container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* .titleWrap */
@@ -238,8 +246,8 @@ html, body {
   #faq #expWrap,
   #faq #qnaWrap,
   #contact,
-  #footer,
-  #copyright {
+  #footer .ft_container,
+  #footer #copyright {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -267,11 +275,18 @@ html, body {
   #schedule .scheduleTableWrap,
   #studioGallery,
   #contact,
-  #footer {
+  #footer .ft_container {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  #footer {
+    padding-bottom: 0;
+  }
+  #footer #copyright  {
+    padding-left: 30px;
+    padding-right: 30px;
   }
   #schedule .scheduleViewToggle {
     padding-top: 20px;
@@ -364,8 +379,8 @@ html, body {
   #schedule .scheduleTableWrap,
   #studioGallery,
   #contact,
-  #footer,
-  #copyright {
+  #footer .ft_container,
+  #footer #copyright {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -415,8 +430,8 @@ html, body {
   #schedule .scheduleTableWrap,
   #studioGallery,
   #contact,
-  #footer,
-  #copyright {
+  #footer .ft_container,
+  #footer #copyright {
     padding-left: 10px;
     padding-right: 10px;
   }

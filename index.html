@@ -38,19 +38,19 @@
             <li><a href="#">체험/문의</a></li>
             <li><a href="#">오시는길</a></li>
           </ul>
-          <a href="#" class="naverTalk"></a>
+          <a href="#" class="naverTalk1"></a>
           <div id="toggleBtn"></div>
         </div>
       </div>
       <div id="toggleMenu">
         <ul class="toggleMenuGroup">
-          <li><a href="#"><span>소개</span></a></li>
-          <li><a href="#"><span>수업</span></a></li>
-          <li><a href="#"><span>시간표</span></a></li>
-          <li><a href="#"><span>실내사진</span></a></li>
-          <li><a href="#"><span>체험/문의</span></a></li>
-          <li><a href="#"><span>오시는길</span></a></li>
-          <li><a href="javascript:void(0);"><span>톡톡 문의</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>소개</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>수업</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>시간표</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>실내사진</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>체험/문의</span></a></li>
+          <li class="toggleMenu"><a href="#"><span>오시는길</span></a></li>
+          <li><a href="#" class="naverTalk2"><span>톡톡 문의</span></a></li>
         </ul>
       </div>
     </nav>
@@ -660,15 +660,17 @@
     <span class="text">위로</span>
   </div>
 
-  <script>
-    const navTalk = document.querySelector('.naverTalk');
-
-    navTalk.addEventListener("click", (e) => e.preventDefault() )
-  </script>
   <script src="./js/modal.js"></script>
   <script src="./js/toggleBtn.js"></script>
   <script src="./js/scheduleToggleBtn.js"></script>
   <script src="./js/topBtn.js"></script>
   <script src="./js/moveSection.js"></script>
+  <script>
+    const navTalk1 = document.querySelector('.naverTalk1');
+    const navTalk2 = document.querySelector('.naverTalk2');
+    
+    navTalk1.addEventListener("click", (e) => e.preventDefault() )
+    navTalk2.addEventListener("click", (e) => e.preventDefault() )
+  </script>
 </body>
 </html>

@@ -46,7 +46,7 @@
 #navBar .menuWrap .menuGroup li a:hover {
   color: #314635;
 }
-#navBar .menuWrap .naverTalk {
+#navBar .menuWrap .naverTalk1 {
   width: 116px;
   height: 42px;
   display: block;
@@ -96,7 +96,7 @@
     text-decoration: none;
     color: #fff;
   }
-  #navBar .menuWrap .naverTalk {
+  #navBar .menuWrap .naverTalk1 {
     width: 116px;
     height: 42px;
     background-image: url(../img/naverTalk.png);
@@ -134,7 +134,7 @@
   #navBar .menuWrap .menuGroup {
     display: none !important;
   }
-  #navBar .menuWrap .naverTalk {
+  #navBar .menuWrap .naverTalk1 {
     display: none !important;
   }
   #navBar .menuWrap #toggleBtn {

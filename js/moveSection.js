@@ -6,7 +6,7 @@ const $faqWrap = document.getElementById('faqWrap');
 const $contact = document.getElementById('contact');
 
 const main_menus = document.querySelectorAll('.menuGroup > li');
-const toggle_menus = document.querySelectorAll('.toggleMenuGroup > li');
+const toggle_menus = document.querySelectorAll('.toggleMenuGroup > .toggleMenu');
 const sub_menus = document.querySelectorAll('.subMenuGroup > li');
 const arrays = [$about, $class_type, $schedule, $studio_gallery, $faqWrap, $contact];
 
@@ -22,7 +22,6 @@ main_menus.forEach((mainM, index) => mainM.addEventListener('click', (e) => {
 
 toggle_menus.forEach((toggleM, index) => toggleM.addEventListener('click', (e) => {
   e.preventDefault();
-
   const sectionTop = arrays[index].offsetTop;
 
   window.scrollTo({

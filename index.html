@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="./style/faq.css">
   <link rel="stylesheet" href="./style/contact.css">
   <link rel="stylesheet" href="./style/footer.css">
-  <link rel="stylesheet" href="./style/copyright.css">
   <link rel="stylesheet" href="./style/topBtn.css">
 </head>
 <body>
@@ -39,7 +38,7 @@
             <li><a href="#">체험/문의</a></li>
             <li><a href="#">오시는길</a></li>
           </ul>
-          <a href="#" onclick="preventDefault()" class="naverTalk"></a>
+          <a href="#" class="naverTalk"></a>
           <div id="toggleBtn"></div>
         </div>
       </div>
@@ -661,6 +660,11 @@
     <span class="text">위로</span>
   </div>
 
+  <script>
+    const navTalk = document.querySelector('.naverTalk');
+
+    navTalk.addEventListener("click", (e) => e.preventDefault() )
+  </script>
   <script src="./js/modal.js"></script>
   <script src="./js/toggleBtn.js"></script>
   <script src="./js/scheduleToggleBtn.js"></script>

@@ -12,13 +12,13 @@ galleryImgGroup.forEach(img => img.addEventListener("click", () => {
 
     if (modal.style.display = 'none') {
       document.body.style.overflowY = 'auto';
-      document.addEventListener('touchmove', preventDefault, true);
+      document.removeEventListener('touchmove', preventDefault, false);
     }
   });
 
   if(modal.style.display = 'block') {
     document.body.style.overflowY = 'hidden';
-    document.addEventListener('touchmove', preventDefault, false);
+    document.addEventListener('touchmove', preventDefault, true);
   } 
   
 }));

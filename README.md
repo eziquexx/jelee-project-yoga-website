@@ -3,7 +3,7 @@
 - 상세내용: https://www.notion.so/c6998e4a8d13433ab60b650051fa3cfa?pvs=4
 
 ## 	:speech_balloon: 프로젝트 소개
-푸쉬파 요가 스튜디오의 웹사이트를 벤치마킹하여 Redesign을 하였습니다.
+[푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/)의 웹사이트를 벤치마킹하여 Redesign을 하였습니다.
 그리고 반응형으로도 제작하여 사용자가 다양한 방식으로 접근을 할 수 있도록 하였습니다.
 > [!CAUTION]
 > 경고: 이 미니 프로젝트는 상업적인 용도가 아닙니다.
@@ -70,5 +70,4 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 
 ## :label: 저작권 및 사용권 정보
 - 개인 미니 프로젝트이며 상업적이 용도가 아닙니다.
-- 푸쉬파 요가 스튜디오는 실존하는 요가원입니다.
-- https://pushpayogastudio.modoo.at/
+- [푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/)는 실존하는 요가원입니다.

@@ -12,7 +12,7 @@
 #galleryModal .modal-content {
   position: absolute;
   display: block;
-  width: 70%;
+  width: 50%;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -32,4 +32,10 @@
 .close:focus {
   color: #61926C;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  #galleryModal .modal-content {
+    width: 90%;
+  }
 }

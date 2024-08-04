@@ -9,13 +9,14 @@ galleryImgGroup.forEach(img => img.addEventListener("click", () => {
 
   modal.onmouseover = () => {
     document.body.style.overflowY = "hidden";
+    document.addEventListener('touchmove', preventDefault, false);
   }
-  modal.onmouseout = () => {
+  modal.onmouseleave = () => {
     document.body.style.overflowY = "auto";
   }
 }));
 
+
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
-

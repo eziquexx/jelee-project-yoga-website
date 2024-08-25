@@ -3,14 +3,20 @@
 
 :star: [JELEE Notion - Mini Project](https://www.notion.so/6c646943c1ce49e09175929af3e2711e?v=1b7171c6124349e388955a29009c864e)로 이동하면 해당 미니 프로젝트 또는 다른 프로젝트를 보실 수 있습니다. :star:
 
+<br/>
+
 ## 	:speech_balloon: 프로젝트 소개
 [푸쉬파 요가 스튜디오](https://pushpayogastudio.modoo.at/)의 웹사이트를 벤치마킹하여 Redesign을 하였습니다.
 그리고 반응형으로도 제작하여 사용자가 다양한 방식으로 접근을 할 수 있도록 하였습니다.
 > [!CAUTION]
 > 경고: 이 미니 프로젝트는 상업적인 용도가 아닙니다.
 
+<br/>
+
 ## :walking: 프로젝트 목적
 HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 쌓는 것과 동적인 부분을 JavaScript만을 사용하여 구현을 함으로써 언어에 대한 이해도와 경험을 쌓기 위함입니다.
+
+<br/>
 
 ## :calendar: 개발 기간
 2024-06-25 ~ 2024-08-04
@@ -20,14 +26,20 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - 07/24 개발 시작
 - 08/04 개발 완료 및 종료
 
+<br/>
+
 ## 	:star: 프로그래머
 - JELEE
+
+<br/>
 
 ## :computer: 개발 환경
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 - Visual Studio Code
 - GitHub
+
+<br/>
 
 ## :clipboard: 기술 스택
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -36,6 +48,8 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - HTML5
 - CSS3
 - JavaScript
+
+<br/>
 
 ## :gear: 주요 기능
 - 원페이지 형식의 반응형 웹사이트입니다.
@@ -54,6 +68,8 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
 - 모달창이 떴을 경우 마우스 스크롤하는 기능과 터치하여 움직이는 기능을 방지하는 기능을 추가함.
   - document.body.style.overflow 사용, addEventListener("touchmove") 사용.
 
+<br/>
+
 ## :eyes: 개발 참고 자료
 - 메뉴 클릭하면 각 섹션으로 이동, top 버튼 클릭하면 상단으로 이동
   - [mozilla-scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo)
@@ -64,6 +80,8 @@ HTML5, CSS3을 사용하여 반응형 웹사이트를 제작하면서 경험을 
   - [mozilla-overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
   - [codepen-Disable scroll on Desktop and Mobile](https://codepen.io/wesleypimentel/pen/KpgXJW)
   - [stackoverflow-Disable scrolling in all mobile devices](https://stackoverflow.com/questions/10592411/disable-scrolling-in-all-mobile-devices)
+
+<br/>
 
 ## :label: 저작권 및 사용권 정보
 - 개인 미니 프로젝트이며 상업적이 용도가 아닙니다.

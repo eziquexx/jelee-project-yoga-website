@@ -1,7 +1,7 @@
 # JELEE Mini Project - Yoga Responsive Website Redesign
 실존하는 요가원 웹사이트를 선정하여 반응형으로 새롭게 제작하였습니다.
 
-:star: [JELEE Notion - Mini Project](https://www.notion.so/6c646943c1ce49e09175929af3e2711e?v=1b7171c6124349e388955a29009c864e)로 이동하면 해당 미니 프로젝트 또는 다른 프로젝트를 보실 수 있습니다. :star:
+:star: [JELEE Notion - Mini Project](https://honey-plant-22e.notion.site/dev-jelee-5686cfa35c1b4c859a27de25d5fad5dd?pvs=4)로 이동하면 해당 미니 프로젝트 또는 다른 프로젝트를 보실 수 있습니다. :star:
 
 <br/>
 
